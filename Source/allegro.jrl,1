@@ -1,0 +1,395 @@
+\t (00:00:03) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Thu Apr 29 23:11:26 2021
+\t (00:00:03)         Host=MAHMOUD-BALENA User=Tolba Pid=32 CPUs=8
+\t (00:00:03) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:08) fillin yes 
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged emi_filter
+\d (00:00:08) Design opened: D:/Balena/Design/HW Design/Balena's Work/Products/Fin/Design Files/DOC V11 (sent 20210312)/DOC V11/emi_filter.dra
+\i (00:00:08) trapsize 18
+\i (00:00:09) trapsize 19
+\i (00:00:09) trapsize 18
+\i (00:00:09) trapsize 19
+\i (00:00:09) trapsize 19
+\i (00:00:10) etchedit 
+\i (00:00:11) open 
+\i (00:00:16) fillin "20173009_BALENA-FIN_V12.brd"
+\t (00:00:17) Opening existing design...
+\i (00:00:18) fillin yes 
+\w (00:00:19) WARNING(SPMHDB-212): Design feature(s) are disabled because selected product and option(s) do not
+match design capability required: Total Etch Length. DRC set "out of date".. Either select required product and
+option(s) in Product Choices or click Update to Tier in File Properties to
+suppress the message. See Allegro PCB Design Solutions datasheet on
+www.cadence.com for mapping of products and options to design features.
+\i (00:00:20) fillin confirm
+\i (00:00:20) trapsize 2556
+\i (00:00:20) trapsize 2599
+\i (00:00:20) trapsize 2556
+\i (00:00:20) trapsize 2556
+\d (00:00:20) Design opened: D:/Balena/Design/HW Design/Balena's Work/Products/Fin/Design Files/DOC V11 (sent 20210312)/DOC V11/20173009_BALENA-FIN_V12.brd
+\i (00:00:21) trapsize 2411
+\i (00:00:22) etchedit 
+\i (00:00:27) QtSignal CVPLayerGrid CVPBoxAllPower clicked false
+\i (00:00:27) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 0.6357 -8.3210
+\i (00:00:31) trapsize 1205
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 0.6357 -8.3210
+\i (00:00:31) trapsize 603
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out -1.0640 -7.5013
+\i (00:00:33) trapsize 1205
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in -1.6427 -11.1417
+\i (00:00:34) trapsize 603
+\i (00:00:35) zoom in 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom in -1.6427 -11.1538
+\i (00:00:35) trapsize 301
+\i (00:00:42) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:00:43) QtSignal CVPLayerGrid CVPBoxAllGnd clicked false
+\i (00:00:46) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:00:50) prepopup -0.6723 -6.0426
+\i (00:00:52) pop dyn_option_select 'Super filter@:@Cline Seg' 
+\i (00:00:58) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:00:59) pick grid -0.8290 -6.3620
+\t (00:00:59) last pick:  -0.8500 -6.3500
+\i (00:00:59) slide 
+\t (00:01:00) Waiting for the destination pick.
+\i (00:01:01) prepopup -0.7989 -6.4826
+\i (00:01:05) prepopup -0.7868 -6.3741
+\i (00:01:08) cancel 
+\i (00:01:08) etchedit 
+\i (00:01:09) prepopup -0.7326 -6.3379
+\i (00:01:10) pop dyn_option_select @:@Delete 
+\i (00:01:10) delete 
+\i (00:01:11) etchedit 
+\i (00:01:15) prepopup -0.3107 -5.7051
+\i (00:01:17) pop dyn_option_select @:@Delete 
+\i (00:01:17) delete 
+\i (00:01:17) etchedit 
+\i (00:01:19) pick grid -0.3227 -5.1264
+\t (00:01:19) last pick:  -0.3000 -5.1500
+\i (00:01:20) prepopup -0.2745 -5.1927
+\i (00:01:23) pop dyn_option_select 'Super filter@:@Via' 
+\i (00:01:24) prepopup -0.3047 -5.2229
+\i (00:01:26) pop dyn_option_select @:@Delete 
+\i (00:01:26) delete 
+\i (00:01:36) etchedit 
+\i (00:01:40) undo 
+\i (00:01:40) etchedit 
+\i (00:01:45) pick grid -1.0460 -6.9226
+\t (00:01:45) last pick:  -1.0500 -6.9000
+\i (00:01:45) add connect 
+\t (00:01:46) Pick first element.
+\t (00:01:46) Target Symbol Pin is defined on TOP.
+\t (00:01:46) last pick:  -1.3000 -6.9000
+\i (00:01:46) mouse_pos -1.0460 -6.9166
+\i (00:01:49) prepopup -1.0581 -6.6092
+\i (00:01:50) cancel 
+\i (00:01:50) etchedit 
+\i (00:01:51) prepopup -1.0822 -6.9286
+\i (00:01:52) pop dyn_option_select @:@Delete 
+\i (00:01:52) delete 
+\i (00:01:56) etchedit 
+\i (00:03:36) zoom out 1 
+\i (00:03:36) setwindow pcb
+\i (00:03:36) zoom out -0.0093 -7.6700
+\i (00:03:36) trapsize 603
+\i (00:03:36) zoom out 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom out -0.0094 -7.6699
+\i (00:03:37) trapsize 1205
+\i (00:07:23) pick grid 16.5055 -25.0528
+\t (00:07:23) last pick:  16.5000 -25.0500
+\i (00:07:58) zoom in 1 
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom in 1.1961 -3.4990
+\i (00:07:58) trapsize 603
+\i (00:07:58) zoom in 1 
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom in 1.1961 -3.4989
+\i (00:07:58) trapsize 301
+\i (00:07:59) zoom out 1 
+\i (00:08:00) setwindow pcb
+\i (00:08:00) zoom out 1.1961 -3.5833
+\i (00:08:00) trapsize 603
+\i (00:09:36) zoom out 1 
+\i (00:09:36) setwindow pcb
+\i (00:09:36) zoom out 9.4416 -1.5702
+\i (00:09:36) trapsize 1205
+\i (00:09:36) zoom out 1 
+\i (00:09:36) setwindow pcb
+\i (00:09:36) zoom out 8.8629 -0.8469
+\i (00:09:36) trapsize 2411
+\i (00:09:38) zoom in 1 
+\i (00:09:38) setwindow pcb
+\i (00:09:38) zoom in 30.0791 -38.7951
+\i (00:09:38) trapsize 1205
+\i (00:09:40) pop dyn_option_select 'Application Mode@:@General Edit' 
+\i (00:09:40) generaledit 
+\i (00:09:42) pick grid -16.0663 -2.6551
+\t (00:09:42) last pick:  -16.0500 -2.6500
+\i (00:09:54) setwindow form.find
+\i (00:09:54) FORM find all_on  
+\i (00:09:56) setwindow pcb
+\i (00:09:56) pick grid -14.0893 -2.0282
+\t (00:09:56) last pick:  -14.1000 -2.0500
+\i (00:09:59) pick grid -17.7781 -4.0775
+\t (00:09:59) last pick:  -17.8000 -4.1000
+\i (00:10:00) prepopup -17.7781 -4.0775
+\i (00:10:11) pop dyn_option_select @:@Move 
+\i (00:10:11) move 
+\t (00:10:11) last pick:  -17.8000 -4.1000
+\t (00:10:11) last pick:  -17.8000 -4.1000
+\t (00:10:12) Pick new location for the element(s).
+\i (00:10:14) prepopup -12.5945 -27.9458
+\i (00:10:15) cancel 
+\i (00:10:15) generaledit 
+\i (00:10:16) pick grid -14.7644 -2.7274
+\t (00:10:16) last pick:  -14.7500 -2.7500
+\i (00:10:18) zoom in 1 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) zoom in -13.8241 -10.2254
+\i (00:10:18) trapsize 603
+\i (00:10:18) zoom in 1 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) zoom in -13.8241 -10.2254
+\i (00:10:18) trapsize 301
+\i (00:10:21) pick grid -8.0318 -11.4730
+\t (00:10:21) last pick:  -8.0500 -11.4500
+\i (00:10:22) prepopup -8.0318 -11.4730
+\i (00:10:28) pop dyn_option_select @:@Expand/Contract 
+\i (00:10:28) change shape size 
+\i (00:10:29) zoom out 1 
+\i (00:10:29) setwindow pcb
+\i (00:10:29) zoom out -5.4702 -10.3700
+\i (00:10:29) trapsize 603
+\i (00:10:29) zoom out 1 
+\i (00:10:29) setwindow pcb
+\i (00:10:29) zoom out -5.4099 -10.3097
+\i (00:10:29) trapsize 1205
+\i (00:10:30) zoom in 1 
+\i (00:10:30) setwindow pcb
+\i (00:10:30) zoom in 4.3544 -2.8840
+\i (00:10:30) trapsize 603
+\i (00:10:31) zoom in 1 
+\i (00:10:31) setwindow pcb
+\i (00:10:31) zoom in 4.3544 -2.8840
+\i (00:10:31) trapsize 301
+\i (00:10:33) zoom out 1 
+\i (00:10:33) setwindow pcb
+\i (00:10:33) zoom out 1.1539 -5.7289
+\i (00:10:33) trapsize 603
+\i (00:10:34) zoom out 1 
+\i (00:10:34) setwindow pcb
+\i (00:10:34) zoom out 5.3851 -6.0784
+\i (00:10:34) trapsize 1205
+\i (00:10:38) pick grid -11.1540 -3.4263
+\t (00:10:38) last pick:  -11.1500 -3.4500
+\i (00:10:38) zoom in 1 
+\i (00:10:38) setwindow pcb
+\i (00:10:38) zoom in -11.7808 -10.4180
+\i (00:10:38) trapsize 603
+\i (00:10:38) zoom in 1 
+\i (00:10:38) setwindow pcb
+\i (00:10:38) zoom in -11.7808 -10.4180
+\i (00:10:38) trapsize 301
+\i (00:10:39) pick grid -11.8591 -10.2432
+\t (00:10:39) last pick:  -11.8500 -10.2500
+\i (00:10:40) pick grid -18.5977 -10.2733
+\t (00:10:40) last pick:  -18.6000 -10.2500
+\i (00:10:42) pick grid -11.9254 -9.6284
+\t (00:10:42) last pick:  -11.9500 -9.6500
+\i (00:10:43) pick grid -11.9194 -9.6887
+\t (00:10:43) last pick:  -11.9000 -9.7000
+\i (00:10:46) prepopup -14.3966 -11.1051
+\i (00:10:48) cancel 
+\i (00:10:49) generaledit 
+\i (00:10:50) pick grid -12.8054 -9.6404
+\t (00:10:50) last pick:  -12.8000 -9.6500
+\i (00:10:50) prepopup -12.8054 -9.6404
+\i (00:10:51) pick grid -13.2514 -10.8339
+\t (00:10:51) last pick:  -13.2500 -10.8500
+\i (00:10:52) pick grid -12.9561 -9.7550
+\t (00:10:52) last pick:  -12.9500 -9.7500
+\i (00:10:53) prepopup -12.9561 -9.7550
+\i (00:10:56) pop dyn_option_select '@:@Assign net' 
+\i (00:10:56) shape assign net 
+\i (00:11:04) prepopup -12.2207 -10.3095
+\i (00:11:05) cancel 
+\i (00:11:06) generaledit 
+\i (00:11:07) pick grid -12.8295 -10.6169
+\t (00:11:07) last pick:  -12.8500 -10.6000
+\i (00:11:08) pick grid -12.9259 -9.7128
+\t (00:11:08) last pick:  -12.9500 -9.7000
+\i (00:11:09) prepopup -12.9259 -9.7128
+\i (00:11:27) pop dyn_option_select 'Net@:@Change Width...' 
+\i (00:11:27) change width 
+\i (00:11:39) setwindow form.chgwidth
+\i (00:11:39) FORM chgwidth chgwidth 0.1000 
+\i (00:11:39) FORM chgwidth done  
+\e (00:11:39) ERROR(SPMHGE-536): Shape line width cannot be changed.
+\w (00:11:39) WARNING(SPMHGE-507): Cline already matches option panel settings.
+\w (00:11:39) WARNING(SPMHGE-507): Cline already matches option panel settings.
+\w (00:11:39) WARNING(SPMHGE-507): Cline already matches option panel settings.
+\w (00:11:39) WARNING(SPMHGE-507): Cline already matches option panel settings.
+\w (00:11:39) WARNING(SPMHGE-507): Cline already matches option panel settings.
+\w (00:11:39) WARNING(SPMHGE-507): Cline already matches option panel settings.
+\w (00:11:39) WARNING(SPMHGE-507): Cline already matches option panel settings.
+\w (00:11:39) WARNING(SPMHGE-507): Cline already matches option panel settings.
+\w (00:11:39) WARNING(SPMHGE-507): Cline already matches option panel settings.
+\t (00:11:46) Changed 388 items out of 646 items found.
+\i (00:11:46) setwindow pcb
+\i (00:11:46) generaledit 
+\i (00:11:47) zoom out 1 
+\i (00:11:47) setwindow pcb
+\i (00:11:47) zoom out -6.0488 -9.7972
+\i (00:11:47) trapsize 603
+\i (00:11:49) zoom in 1 
+\i (00:11:49) setwindow pcb
+\i (00:11:49) zoom in 1.7025 -3.6492
+\i (00:11:49) trapsize 301
+\i (00:11:49) zoom out 1 
+\i (00:11:50) setwindow pcb
+\i (00:11:50) zoom out 1.6361 -3.7396
+\i (00:11:50) trapsize 603
+\i (00:11:50) zoom in 1 
+\i (00:11:50) setwindow pcb
+\i (00:11:50) zoom in 1.8170 -3.6793
+\i (00:11:50) trapsize 301
+\i (00:11:59) zoom out 1 
+\i (00:11:59) setwindow pcb
+\i (00:11:59) zoom out -1.3474 -9.8031
+\i (00:11:59) trapsize 603
+\i (00:11:59) zoom out 1 
+\i (00:11:59) setwindow pcb
+\i (00:11:59) zoom out -0.9858 -9.3329
+\i (00:11:59) trapsize 1205
+\i (00:12:00) zoom in 1 
+\i (00:12:00) setwindow pcb
+\i (00:12:00) zoom in 4.4147 -5.2342
+\i (00:12:00) trapsize 603
+\i (00:12:00) zoom in 1 
+\i (00:12:00) setwindow pcb
+\i (00:12:00) zoom in 4.4147 -5.2342
+\i (00:12:00) trapsize 301
+\i (00:12:01) roam start
+\i (00:12:01) roam x 32
+\i (00:12:02) roam x 16
+\i (00:12:02) roam x 16
+\i (00:12:02) roam x 16
+\i (00:12:02) roam x 16
+\i (00:12:02) roam end
+\i (00:12:03) prepopup -2.0142 -4.5651
+\i (00:12:06) pick grid -2.8882 -2.6906
+\t (00:12:06) last pick:  -2.9000 -2.7000
+\i (00:12:07) pick grid -2.8882 -2.6906
+\t (00:12:07) last pick:  -2.9000 -2.7000
+\i (00:12:08) pick grid -4.0575 -4.0407
+\t (00:12:08) last pick:  -4.0500 -4.0500
+\i (00:12:09) prepopup -4.0575 -4.0407
+\i (00:12:15) pop dyn_option_select 'Net@:@Change Width...' 
+\i (00:12:16) change width 
+\i (00:12:26) setwindow form.chgwidth
+\i (00:12:26) FORM chgwidth chgwidth 0.0500 
+\i (00:12:26) FORM chgwidth done  
+\e (00:12:26) ERROR(SPMHGE-536): Shape line width cannot be changed.
+\t (00:12:32) Changed 397 items out of 646 items found.
+\i (00:12:32) setwindow pcb
+\i (00:12:32) generaledit 
+\i (00:12:35) pick grid -2.5989 -4.6194
+\t (00:12:35) last pick:  -2.6000 -4.6000
+\i (00:12:36) pick grid -3.0329 -4.6857
+\t (00:12:36) last pick:  -3.0500 -4.7000
+\i (00:12:37) pick grid -2.9424 -4.6857
+\t (00:12:37) last pick:  -2.9500 -4.7000
+\i (00:12:38) pick grid -2.8581 -3.2331
+\t (00:12:38) last pick:  -2.8500 -3.2500
+\i (00:12:39) pick grid -2.8400 -3.4380
+\t (00:12:39) last pick:  -2.8500 -3.4500
+\i (00:12:39) prepopup -2.8400 -3.4380
+\i (00:12:42) pop dyn_option_select 'Net@:@Change Width...' 
+\i (00:12:42) change width 
+\i (00:12:48) setwindow form.chgwidth
+\i (00:12:48) FORM chgwidth chgwidth 0.2000 
+\i (00:12:48) FORM chgwidth done  
+\e (00:12:48) ERROR(SPMHGE-536): Shape line width cannot be changed.
+\t (00:12:54) Changed 397 items out of 646 items found.
+\i (00:12:54) setwindow pcb
+\i (00:12:54) generaledit 
+\i (00:12:58) zoom out 1 
+\i (00:12:58) setwindow pcb
+\i (00:12:58) zoom out -3.6597 -4.0829
+\i (00:12:58) trapsize 603
+\i (00:12:59) zoom out 1 
+\i (00:12:59) setwindow pcb
+\i (00:12:59) zoom out -3.6598 -4.0829
+\i (00:12:59) trapsize 1205
+\i (00:13:00) zoom in 1 
+\i (00:13:00) setwindow pcb
+\i (00:13:00) zoom in 3.5972 -4.6857
+\i (00:13:00) trapsize 603
+\i (00:13:01) pick grid 4.6219 -15.4626
+\t (00:13:01) last pick:  4.6000 -15.4500
+\i (00:13:02) zoom in 1 
+\i (00:13:02) setwindow pcb
+\i (00:13:02) zoom in 0.1496 -3.7816
+\i (00:13:02) trapsize 301
+\i (00:13:06) pick grid 1.5540 -5.7284
+\t (00:13:07) last pick:  1.5500 -5.7500
+\i (00:13:08) pick grid 1.1200 -3.8177
+\t (00:13:08) last pick:  1.1000 -3.8000
+\i (00:13:25) prmed 
+\i (00:13:27) setwindow form.prmedit
+\i (00:13:27) FORM prmedit design  
+\i (00:13:31) FORM prmedit units Mils 
+   (00:13:31) Accuracy or unit changes can cause design round-off issues. DRCs and physical changes should be checked.
+\i (00:13:34) fillin confirm
+\e (00:13:34) Change may cause round-off; run dbcheck.
+\i (00:13:36) FORM prmedit done  
+\i (00:13:41) fillin yes 
+\w (00:13:41) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:13:42) fillin yes 
+\i (00:13:42) setwindow pcb
+\i (00:13:42) trapsize 1186
+\t (00:13:42) Performing DRC...
+\t (00:13:42) Multithreaded DRC update (8 threads).
+\t (00:13:49) DRC done; 363 errors detected.
+\i (00:13:50) generaledit 
+\i (00:13:51) pick grid -72.892 -197.289
+\t (00:13:51) last pick:  -72.853 -196.900
+\i (00:13:54) zoom out 1 
+\i (00:13:54) setwindow pcb
+\i (00:13:54) zoom out 66.638 -198.950
+\i (00:13:54) trapsize 2373
+\i (00:13:54) zoom out 1 
+\i (00:13:54) setwindow pcb
+\i (00:13:54) zoom out 66.638 -198.950
+\i (00:13:54) trapsize 4746
+\i (00:13:55) zoom in 1 
+\i (00:13:55) setwindow pcb
+\i (00:13:55) zoom in 66.637 -198.950
+\i (00:13:55) trapsize 2373
+\i (00:14:00) pick grid -349.582 -51.826
+\t (00:14:00) last pick:  -350.482 -51.194
+\i (00:14:02) pick grid -328.226 -452.858
+\t (00:14:02) last pick:  -328.823 -452.870
+\i (00:14:04) prepopup -328.226 -452.858
+\i (00:14:08) pop dyn_option_select '@:@Property edit' 
+\i (00:14:08) property edit 
+\i (00:14:16) setwindow form.editprop1
+\i (00:14:16) FORM editprop1 cancel  
+\i (00:14:16) setwindow pcb
+\i (00:14:16) generaledit 
+\i (00:14:22) exit 
+\e (00:14:22) Do you want to save the changes you made to 20173009_BALENA-FIN_V12.brd?
+\i (00:14:23) fillin no 
+\t (00:14:24)     Journal end - Thu Apr 29 23:25:46 2021

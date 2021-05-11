@@ -1,0 +1,246 @@
+\t (00:00:04) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Thu Apr 29 23:44:52 2021
+\t (00:00:04)         Host=MAHMOUD-BALENA User=Tolba Pid=32096 CPUs=8
+\t (00:00:04) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\i (00:00:09) fillin yes 
+\i (00:00:09) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged emi_filter
+\d (00:00:09) Design opened: D:/Balena/Design/HW Design/Balena's Work/Products/Fin/Design Files/DOC V11 (sent 20210312)/DOC V11/emi_filter.dra
+\i (00:00:10) trapsize 18
+\i (00:00:10) trapsize 19
+\i (00:00:11) trapsize 18
+\i (00:00:11) trapsize 19
+\i (00:00:11) trapsize 19
+\i (00:00:12) generaledit 
+\i (00:00:15) open 
+\i (00:00:23) fillin "20173009_BALENA-FIN_V12.brd"
+\t (00:00:23) Opening existing design...
+\i (00:00:25) fillin yes 
+\w (00:00:25) WARNING(SPMHDB-212): Design feature(s) are disabled because selected product and option(s) do not
+match design capability required: Total Etch Length. DRC set "out of date".. Either select required product and
+option(s) in Product Choices or click Update to Tier in File Properties to
+suppress the message. See Allegro PCB Design Solutions datasheet on
+www.cadence.com for mapping of products and options to design features.
+\i (00:00:26) fillin confirm
+\i (00:00:27) trapsize 2556
+\i (00:00:27) trapsize 2599
+\i (00:00:27) trapsize 2556
+\i (00:00:27) trapsize 2556
+\d (00:00:27) Design opened: D:/Balena/Design/HW Design/Balena's Work/Products/Fin/Design Files/DOC V11 (sent 20210312)/DOC V11/20173009_BALENA-FIN_V12.brd
+\i (00:00:28) trapsize 2411
+\i (00:00:29) generaledit 
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 12.3045 -16.5664
+\i (00:00:31) trapsize 4822
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 11.5330 -21.4847
+\i (00:00:32) trapsize 2411
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom in 49.7221 -18.1576
+\i (00:00:38) trapsize 1205
+\i (00:00:41) zoom out 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom out 6.3737 -14.2277
+\i (00:00:41) trapsize 2411
+\i (00:00:43) roam start
+\i (00:00:43) roam x -32
+\i (00:00:43) roam y 16
+\i (00:00:43) roam x -256
+\i (00:00:43) roam y 96
+\i (00:00:43) roam end
+\i (00:00:45) roam start
+\i (00:00:45) roam end
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out -10.5690 -22.4743
+\i (00:00:46) trapsize 4822
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out -9.3154 -18.4238
+\i (00:00:46) trapsize 9644
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out -8.5439 -17.6524
+\i (00:00:46) trapsize 19287
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in -11.2442 -17.2666
+\i (00:00:46) trapsize 9644
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in -13.7516 -18.2310
+\i (00:00:47) trapsize 4822
+\i (00:00:47) roam start
+\i (00:00:47) roam x 16
+\i (00:00:47) roam y -16
+\i (00:00:47) roam x 80
+\i (00:00:47) roam y -32
+\i (00:00:47) roam x 96
+\i (00:00:47) roam y -32
+\i (00:00:47) roam x 80
+\i (00:00:47) roam y -32
+\i (00:00:48) roam x 64
+\i (00:00:48) roam y -32
+\i (00:00:48) roam x 16
+\i (00:00:48) roam x -160
+\i (00:00:48) roam y 48
+\i (00:00:48) roam x -208
+\i (00:00:48) roam y 64
+\i (00:00:48) roam x -16
+\i (00:00:48) roam y 32
+\i (00:00:48) roam x -48
+\i (00:00:48) roam y 32
+\i (00:00:48) roam x -32
+\i (00:00:48) roam y 16
+\i (00:00:49) roam y 16
+\i (00:00:49) roam x -16
+\i (00:00:49) roam x -64
+\i (00:00:49) roam y 16
+\i (00:00:49) roam x -64
+\i (00:00:49) roam y 32
+\i (00:00:49) roam x -32
+\i (00:00:49) roam y 32
+\i (00:00:49) roam x -32
+\i (00:00:49) roam x -48
+\i (00:00:49) roam y 16
+\i (00:00:50) roam end
+\i (00:00:50) zoom out 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom out -48.1295 -33.0325
+\i (00:00:50) trapsize 9644
+\i (00:00:50) roam start
+\i (00:00:50) roam x -16
+\i (00:00:50) roam x -32
+\i (00:00:51) roam x -48
+\i (00:00:51) roam x -48
+\i (00:00:51) roam y 16
+\i (00:00:51) roam x -96
+\i (00:00:51) roam x -48
+\i (00:00:51) roam y 16
+\i (00:00:51) roam x -32
+\i (00:00:51) roam x -32
+\i (00:00:51) roam y 48
+\i (00:00:51) roam x -96
+\i (00:00:51) roam y 160
+\i (00:00:51) roam x -32
+\i (00:00:51) roam y 48
+\i (00:00:51) roam end
+\i (00:00:52) setwindow form.find
+\i (00:00:52) FORM find all_on  
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom in 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom in 10.3113 6.6031
+\i (00:00:54) trapsize 4822
+\i (00:00:54) zoom in 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom in 10.7935 6.1209
+\i (00:00:54) trapsize 2411
+\i (00:00:57) pick grid 14.5545 -23.5335
+\t (00:00:57) last pick:  14.5500 -23.5500
+\i (00:01:16) enved 
+\i (00:01:16) setwindow form.prfedit
+\i (00:01:16) FORM prfedit treelist  My_favorites 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) generaledit 
+\i (00:01:22) setwindow form.prfedit
+\i (00:01:22) FORM prfedit treelist  Display 
+\i (00:01:24) FORM prfedit treelist  3D Display 
+\i (00:01:30) FORM prfedit treelist  Shapes 
+\i (00:01:31) FORM prfedit treelist  General Shapes 
+\i (00:01:42) FORM prfedit treelist  Manufacture 
+\i (00:01:48) FORM prfedit treelist  Route 
+\i (00:01:49) FORM prfedit treelist  Connect Route 
+\i (00:02:14) FORM prfedit treelist  General Display 
+\i (00:02:18) FORM prfedit treelist  My_favorites 
+\i (00:02:22) FORM prfedit treelist  Drc 
+\i (00:02:24) FORM prfedit treelist  General Drc 
+\i (00:02:35) FORM prfedit treelist  Connect Route 
+\i (00:02:45) FORM prfedit treelist  Os 
+\i (00:02:49) FORM prfedit treelist  Drc 
+\i (00:02:53) FORM prfedit treelist  Cursor Display 
+\i (00:03:08) FORM prfedit treelist  Interfaces 
+\i (00:03:15) FORM prfedit treelist  Display 
+\i (00:03:23) FORM prfedit cancel  
+\i (00:03:35) setwindow pcb
+\i (00:03:35) display toolbar param 
+\i (00:03:42) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 7 Dimension
+\i (00:03:44) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 7 Dimension
+\i (00:03:51) QtSignal spbtoolbareditor spbtoolbareditor_tabView currentChanged Commands
+\i (00:03:53) QtSignal spbtoolbareditor_tools spbtooltab_list currentRowChanged 0
+\i (00:03:53) QtSignal spbtoolbareditor spbtoolbareditor_tabView currentChanged ToolBars
+\i (00:03:59) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 16 ContextMenu
+\i (00:04:02) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 16 ContextMenu
+\i (00:04:03) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 16 ContextMenu
+\i (00:04:03) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 16 ContextMenu
+\i (00:04:04) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 16 ContextMenu
+\i (00:04:06) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 16 ContextMenu
+\i (00:04:06) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 16 ContextMenu
+\i (00:04:10) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 12 Fanout
+\i (00:04:12) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 12 Fanout
+\i (00:04:14) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 5 AppMode
+\i (00:04:16) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 5 AppMode
+\i (00:04:18) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 7 Dimension
+\i (00:04:22) QtSignal spbtoolbareditor_tools spbtooltab_list currentRowChanged 10
+\i (00:04:22) QtSignal spbtoolbareditor_tools spbtooltab_list itemSelectionChanged Analysis
+\i (00:04:23) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 10 Analysis
+\i (00:04:24) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 10 Analysis
+\i (00:04:25) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 9 Logic
+\i (00:04:27) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 9 Logic
+\i (00:04:30) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 16 ContextMenu
+\i (00:04:37) QtSignal spbtoolbareditor_tools spbtooltab_list currentRowChanged 6
+\i (00:04:37) QtSignal spbtoolbareditor_tools spbtooltab_list itemSelectionChanged Shape
+\i (00:04:40) QtSignal spbtoolbareditor_tools spbtooltab_lineedit editingFinished Shape
+\i (00:04:40) QtSignal spbtoolbareditor spbtoolbareditor_closeBtn clicked
+\i (00:04:40) generaledit 
+\i (00:06:34) zoom in 1 
+\i (00:06:34) setwindow pcb
+\i (00:06:34) zoom in 10.9381 -11.4306
+\i (00:06:34) trapsize 1205
+\i (00:06:34) zoom in 1 
+\i (00:06:34) setwindow pcb
+\i (00:06:34) zoom in 10.8417 -12.1538
+\i (00:06:34) trapsize 603
+\i (00:06:36) pick grid 9.2867 -11.4546
+\t (00:06:36) last pick:  9.3000 -11.4500
+\i (00:06:37) zoom out 1 
+\i (00:06:37) setwindow pcb
+\i (00:06:37) zoom out 9.2867 -11.4546
+\i (00:06:37) trapsize 1205
+\i (00:06:37) zoom out 1 
+\i (00:06:37) setwindow pcb
+\i (00:06:37) zoom out 9.2866 -11.4546
+\i (00:06:37) trapsize 2411
+\i (00:06:38) zoom in 1 
+\i (00:06:38) setwindow pcb
+\i (00:06:38) zoom in -0.2125 -16.4211
+\i (00:06:38) trapsize 1205
+\i (00:06:49) zoom out 1 
+\i (00:06:49) setwindow pcb
+\i (00:06:49) zoom out 3.5968 -5.0174
+\i (00:06:49) trapsize 2411
+\i (00:53:52) zoom in 1 
+\i (00:53:52) setwindow pcb
+\i (00:53:52) zoom in 52.1529 18.9955
+\i (00:53:52) trapsize 1205
+\i (00:54:01) zoom out 1 
+\i (00:54:01) setwindow pcb
+\i (00:54:01) zoom out 46.7284 9.8581
+\i (00:54:01) trapsize 2411
+\i (00:54:01) zoom out 1 
+\i (00:54:01) setwindow pcb
+\i (00:54:01) zoom out 46.7283 9.8581
+\i (00:54:01) trapsize 4822
+\i (00:54:02) zoom in 1 
+\i (00:54:02) setwindow pcb
+\i (00:54:02) zoom in 13.9397 7.0615
+\i (00:54:02) trapsize 2411
+\i (159:19:41) exit 
+\e (159:19:41) Do you want to save the changes you made to 20173009_BALENA-FIN_V12.brd?
+\i (159:19:45) fillin no 
+\t (159:19:46)     Journal end - Thu May  6 15:04:33 2021
