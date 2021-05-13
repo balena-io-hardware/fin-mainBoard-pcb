@@ -3,8 +3,8 @@
 (    DRC Update                                                       )
 (                                                                     )
 (    Drawing          : 20173009_BALENA-FIN_V12.brd                   )
-(    Software Version : 17.4P001                                      )
-(    Date/Time        : Thu Apr 29 23:25:05 2021                      )
+(    Software Version : 17.2S075                                      )
+(    Date/Time        : Thu May 13 20:18:09 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,8 +20,8 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  363
+ ..... Total number of DRC errors  6
 
- ..... DRC update completed, total CPU time   0:00:35
+ ..... DRC update completed, total CPU time   0:00:18
  *************************************************************************
 

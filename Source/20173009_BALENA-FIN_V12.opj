@@ -6,16 +6,40 @@
     (Folder "Library"
       (File ".\20210330_balena-fin_v12.olb"
         (Type "Schematic Library")))
-    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Directory" "netlist")
     (File ".\20173009_balena-fin_v12.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
-    (NoModify))
+    (NoModify)
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\20173009_BALENA-FIN_V12.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Layout")
-  (Folder "Outputs")
+  (Folder "Outputs"
+    (File ".\netlist\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\netlist\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\netlist\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -39,17 +63,29 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\20173009_balena-fin_v12.dsn")
-      (Path "Design Resources" ".\20173009_balena-fin_v12.dsn" "BALENA FIN")
-      (Path "Design Resources" ".\20173009_balena-fin_v12.dsn" "Design Cache")
+      (Path "Design Resources"
+         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20173009_balena-fin_v12.dsn")
+      (Path "Design Resources"
+         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20173009_balena-fin_v12.dsn"
+         "BALENA FIN")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20210330_balena-fin_v12.olb")
-      (Select "Design Resources" "Library"
-         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20210330_balena-fin_v12.olb"))
+      (Path "Outputs")
+      (Select "Design Resources"
+         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20173009_balena-fin_v12.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 906"))
-      (Tab 0))))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 156 1410 156 629")
+        (Scroll "483 1010")
+        (Zoom "228")
+        (Occurrence "/"))
+      (Path
+         "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
+      (Schematic "BALENA FIN")
+      (Page "04 - MIPI INTERFACE"))))

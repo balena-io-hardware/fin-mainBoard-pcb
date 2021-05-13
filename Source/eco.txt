@@ -1,0 +1,87 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  Z:.../repos/HW/balena-fin-pcb-legacy/Source/20173009_BALENA-FIN_V12.brd     |
+|                                                    Thu May 13 20:08:52 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  CAM1_CK+_EXT pins MOVED FROM this net (to net name listed on right)
+                                 L13.1           45.8600 12.3900
+                                                                        CAM1_CP
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAM1_CK-_EXT pins MOVED FROM this net (to net name listed on right)
+                                 L13.2           45.8600 11.7900
+                                                                        CAM1_CN
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAM1_CN      pins MOVED FROM this net (to net name listed on right)
+                                 L13.4           45.2000 11.7900
+                                                                   CAM1_CK-_EXT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAM1_CP      pins MOVED FROM this net (to net name listed on right)
+                                 L13.3           45.2000 12.3900
+                                                                   CAM1_CK+_EXT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAM1_D0+_EXT pins MOVED FROM this net (to net name listed on right)
+                                 L11.1           45.2000 15.6900
+                                                                       CAM1_DP0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAM1_D0-_EXT pins MOVED FROM this net (to net name listed on right)
+                                 L11.2           45.2000 16.2900
+                                                                       CAM1_DN0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAM1_D1+_EXT pins MOVED FROM this net (to net name listed on right)
+                                 L12.1           45.8600 14.3400
+                                                                       CAM1_DP1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAM1_D1-_EXT pins MOVED FROM this net (to net name listed on right)
+                                 L12.2           45.8600 13.7400
+                                                                       CAM1_DN1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAM1_DN0     pins MOVED FROM this net (to net name listed on right)
+                                 L11.4           45.8600 16.2900
+                                                                   CAM1_D0-_EXT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAM1_DN1     pins MOVED FROM this net (to net name listed on right)
+                                 L12.4           45.2000 13.7400
+                                                                   CAM1_D1-_EXT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAM1_DP0     pins MOVED FROM this net (to net name listed on right)
+                                 L11.3           45.8600 15.6900
+                                                                   CAM1_D0+_EXT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAM1_DP1     pins MOVED FROM this net (to net name listed on right)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  Z:.../repos/HW/balena-fin-pcb-legacy/Source/20173009_BALENA-FIN_V12.brd     |
+|                                                    Thu May 13 20:08:52 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 L12.3           45.2000 14.3400
+                                                                   CAM1_D1+_EXT
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  Z:.../repos/HW/balena-fin-pcb-legacy/Source/20173009_BALENA-FIN_V12.brd     |
+|                                                    Thu May 13 20:08:52 2021  |
+|------------------------------------------------------------------------------|
+| NET PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|     net  name   |   property   |                    value                    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SWDIO_MCU         DIFFERENTIAL_P USB_DBG
+|------------------------------------------------------------------------------|
+|       Nets changed          :      12                                        |
+|       Net property added    :       1                                        |
+|                                                                              |
+|   Total ECO changes reported:      13                                        |
+|------------------------------------------------------------------------------|

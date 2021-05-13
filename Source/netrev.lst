@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : 20173009_BALENA-FIN_V12.brd                   )
+(    Software Version : 17.2S075                                      )
+(    Date/Time        : Thu May 13 20:08:52 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist'
+Design Directory:            'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source'
+Old design name:             'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/20173009_BALENA-FIN_V12.brd'
+New design name:             'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/20173009_BALENA-FIN_V12.brd'
+
+CmdLine: netrev -$ -i Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist -y 1 -h -q netrev_constraint_report.xml Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/#Taaaabn05636.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstchip.dat 
+   Finished reading Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstchip.dat (00:00:00.07)
+Starting to read Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstxprt.dat 
+   Finished reading Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstxprt.dat (00:00:00.01)
+Starting to read Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstxnet.dat 
+   Finished reading Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstxnet.dat (00:00:00.01)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on May 13 20:08:52 2021
+   DESIGN NAME : '20173009_BALENA-FIN_V12'
+   PACKAGING ON Mar 10 2021 15:36:01
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:06:13
+elapsed time  0:00:03
+
