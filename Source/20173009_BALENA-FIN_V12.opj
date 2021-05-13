@@ -3,7 +3,9 @@
   (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[04/29/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File ".\20210330_balena-fin_v12.olb"
+        (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (File ".\20173009_balena-fin_v12.dsn"
       (Type "Schematic Design"))
@@ -32,17 +34,22 @@
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory
      "D:\Balena\Design\HW Design\Balena's Work\Products\Fin\Design Files\DOC V11 (sent 20210312)\DOC V11")
-  (MPSSessionName "Tolba")
+  (MPSSessionName "nicolastzovanis")
   (ISPCBBASICLICENSE "true")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\20173009_balena-fin_v12.dsn")
       (Path "Design Resources" ".\20173009_balena-fin_v12.dsn" "BALENA FIN")
-      (Select "Design Resources" ".\20173009_balena-fin_v12.dsn"))
+      (Path "Design Resources" ".\20173009_balena-fin_v12.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20210330_balena-fin_v12.olb")
+      (Select "Design Resources" "Library"
+         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20210330_balena-fin_v12.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1115"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 906"))
       (Tab 0))))
