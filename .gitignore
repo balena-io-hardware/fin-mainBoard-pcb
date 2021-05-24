@@ -1,6 +1,8 @@
 ### OrCAD ###
 ### Cadence Design Systm's OrCAD ###
 *.dat
+*.tag
+*.jrl*
 
 ### OSX ###
 # General
