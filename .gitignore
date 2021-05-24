@@ -3,6 +3,11 @@
 *.dat
 *.tag
 *.jrl*
+*.html
+*.log*
+*.txt*
+*.lck
+Source/Release/
 
 ### OSX ###
 # General
