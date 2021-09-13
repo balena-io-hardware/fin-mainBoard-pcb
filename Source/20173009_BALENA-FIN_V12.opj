@@ -64,7 +64,16 @@
     (DRC_Visible_Power_pins "FALSE")
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
-    (DRC_Run_Physical_Custom_DRC "FALSE"))
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (CrossRef_Scope "0")
+    (Crossref__Mode "0")
+    (CrossRef_Sorting "0")
+    (CrossRef_Destination_File
+       "C:\Users\nicolastzovanis\AppData\Roaming\Microsoft\Windows\Network Shortcuts\re.INC")
+    (Crossref__Outputtype "0")
+    (CrossRef_XY "FALSE")
+    (CrossRef_Unused "FALSE")
+    (XRF_View_Output "TRUE"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\netlist\pstxnet.dat"
@@ -77,6 +86,9 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\20173009_balena-fin_v12.drc"
+      (Type "Report"))
+    (File
+       "c:\users\nicolastzovanis\appdata\roaming\microsoft\windows\network shortcuts\re.inc"
       (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
@@ -105,8 +117,8 @@
       (Path "Design Resources" ".\20173009_balena-fin_v12.dsn" "BALENA FIN")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\20210330_balena-fin_v12.olb")
-      (Select "Design Resources" ".\20173009_balena-fin_v12.dsn" "BALENA FIN"
-         "02 - POWER"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\20173009_balena-fin_v12.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -117,21 +129,10 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 78 1328 78 547")
-        (Scroll "0 72")
+        (Scroll "282 6")
         (Zoom "114")
         (Occurrence "/"))
       (Path
          "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
       (Schematic "BALENA FIN")
-      (Page "02 - POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1254 0 473")
-        (Scroll "126 1664")
-        (Zoom "200")
-        (Occurrence "/"))
-      (Path
-         "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
-      (Schematic "BALENA FIN")
-      (Page "00 - REVISION"))))
+      (Page "02 - POWER"))))

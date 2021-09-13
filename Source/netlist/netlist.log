@@ -1,4 +1,4 @@
-{ Using PSTWRITER 17.2.0 d001May-13-2021 at 20:08:38 }
+{ Using PSTWRITER 17.2.0 d001Sep-09-2021 at 12:07:52 }
 
 #1 WARNING(ORCAP-36050): No pins are present in XJ21. Ignoring this component in netlist.
 #2 WARNING(ORCAP-36050): No pins are present in CS1. Ignoring this component in netlist.
@@ -188,272 +188,253 @@
 #186 WARNING(ORCAP-36006): Part Name "CS-C-0402-0.6P/50V-C0G_CS-C-0402_0.6P/50V-C0G" is renamed to "CS-C-0402-0.6P/50V-C0G_CS-C-040".
 #187 WARNING(ORCAP-36006): Part Name "CS-C-1210-100U/10V-X5R_CS-C-1210_100U/10V-X5R" is renamed to "CS-C-1210-100U/10V-X5R_CS-C-121".
 #188 WARNING(ORCAP-36006): Part Name "CS-C-1206-22U/25V-X5R_CS-C-1206_22U/25V-X5R" is renamed to "CS-C-1206-22U/25V-X5R_CS-C-1206".
-#189 WARNING(ORCAP-36006): Part Name "CS-C-0402-220P/50V_CS-C-0402_220P/50V" is renamed to "CS-C-0402-220P/50V_CS-C-0402_22".
-#190 WARNING(ORCAP-36006): Part Name "CS-C-0402-4.7P/50V-C0G_CS-C-0402_4.7P/50V-C0G" is renamed to "CS-C-0402-4.7P/50V-C0G_CS-C-040".
-#191 WARNING(ORCAP-36006): Part Name "CS-C-0603-100N/50V_CS-C-0603_100N/50V" is renamed to "CS-C-0603-100N/50V_CS-C-0603_10".
-#192 WARNING(ORCAP-36006): Part Name "CS-C-0603-22U/10V/X5R_CS-C-0603_22U/10V/X5R" is renamed to "CS-C-0603-22U/10V/X5R_CS-C-0603".
-#193 WARNING(ORCAP-36006): Part Name "DIODO4X - BAV99BRVA-7 -0.2A/75V_SOT563_BAV99BRVA-7" is renamed to "DIODO4X - BAV99BRVA-7 -0.2A/75V".
-#194 WARNING(ORCAP-36006): Part Name "SCHOTTKY-CDBC560-G - 5A/60V_SMC_CDBC560-G" is renamed to "SCHOTTKY-CDBC560-G - 5A/60V_SMC".
-#195 WARNING(ORCAP-36006): Part Name "SCHOTTKY-MBRA160 - 1A/60V_SMA_1A/60V" is renamed to "SCHOTTKY-MBRA160 - 1A/60V_SMA_1".
-#196 WARNING(ORCAP-36006): Part Name "DIP-SW-1X-CHS-01TB-SMD_DSS-CHS-01TB_DIP-SW-CHS-01TB" is renamed to "DIP-SW-1X-CHS-01TB-SMD_DSS-CHS-".
-#197 WARNING(ORCAP-36006): Part Name "RAPIDO - 0154003.DR - 3A/125V_F-LT154_0154003-DR" is renamed to "RAPIDO - 0154003.DR - 3A/125V_F".
-#198 WARNING(ORCAP-36006): Part Name "PTC - 0ZCM0010FF2G - 0.1A/15V_FS-0603_0.1A/15V" is renamed to "PTC - 0ZCM0010FF2G - 0.1A/15V_F".
-#199 WARNING(ORCAP-36006): Part Name "PTC - MF-FSMF050X-2 -0.5A/6V_FS-0603_0.5A/6V" is renamed to "PTC - MF-FSMF050X-2 -0.5A/6V_FS".
-#200 WARNING(ORCAP-36006): Part Name "HDMI - J-19-0050-FOS-HDMI-A-CNC_J-19-0050-FOS-HDMI-A-CNCTECH_HDMI-TYPEA" is renamed to "HDMI - J-19-0050-FOS-HDMI-A-CNC".
-#201 WARNING(ORCAP-36006): Part Name "FPC-ZIF - J-15X2-0100-FDS-ZIF_J-15X2-0100-FDS-ZIF_1-1734248-5" is renamed to "FPC-ZIF - J-15X2-0100-FDS-ZIF_J".
-#202 WARNING(ORCAP-36006): Part Name "USB - J-8-0200-FOT-USB-A-2X_J-8-0200-FOT-USB-A-2X_USB TYPE A - 1002-004-01010" is renamed to "USB - J-8-0200-FOT-USB-A-2X_J-8".
-#203 WARNING(ORCAP-36006): Part Name "USB - MICROUSB-B-FCI10118192_J-5-0065-FOS-MICROUSB10118192_MICROUSB-B" is renamed to "USB - MICROUSB-B-FCI10118192_J-".
-#204 WARNING(ORCAP-36006): Part Name "STRIP-J-9X2-0254-MDT_J-9X2-0254-MDT_STRIP 9PX2 - MDT" is renamed to "STRIP-J-9X2-0254-MDT_J-9X2-0254".
-#205 WARNING(ORCAP-36006): Part Name "STRIP-J-20X2-0254-MDT_J-20X2-0254-MDT_STRIP 20PX2 - MDT" is renamed to "STRIP-J-20X2-0254-MDT_J-20X2-02".
-#206 WARNING(ORCAP-36006): Part Name "MPCIE - J-26X2-0080-FOS-2041119_J-26X2-0080-FOS-2041119_MPCIE-52P-2041119" is renamed to "MPCIE - J-26X2-0080-FOS-2041119".
-#207 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#9" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#208 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#15" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#209 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#21" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#210 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#27" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#211 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#29" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#212 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#35" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#213 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#37" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#214 WARNING(ORCAP-36042): Pin "+3V3aux" is renamed to "+3V3AUX#39" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#215 WARNING(ORCAP-36042): Pin "+3V3aux" is renamed to "+3V3AUX#41" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#216 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#43" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#217 WARNING(ORCAP-36042): Pin "+3V3aux" is renamed to "+3V3AUX#2" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#218 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#4" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#219 WARNING(ORCAP-36042): Pin "+1V5" is renamed to "+1V5#6" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#220 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#18" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#221 WARNING(ORCAP-36042): Pin "+3V3aux" is renamed to "+3V3AUX#24" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#222 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#26" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#223 WARNING(ORCAP-36042): Pin "+1V5" is renamed to "+1V5#28" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#224 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#34" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#225 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#40" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#226 WARNING(ORCAP-36042): Pin "+1V5" is renamed to "+1V5#48" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#227 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#50" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#228 WARNING(ORCAP-36042): Pin "+3V3aux" is renamed to "+3V3AUX#52" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
-#229 WARNING(ORCAP-36006): Part Name "SODIMM - CM3L - 1473005-4 _J-200-0060-MOS-1473005-4_SODIMM-CM3L-1473005-4" is renamed to "SODIMM - CM3L - 1473005-4 _J-20".
-#230 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#1" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#231 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#7" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#232 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#13" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#233 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#19" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#234 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#25" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#235 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#31" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#236 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#37" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#237 WARNING(ORCAP-36042): Pin "GPIO0-27_VDD" is renamed to "GPIO0-27_VDD#39" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#238 WARNING(ORCAP-36042): Pin "SDX_VDD" is renamed to "SDX_VDD#4" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#239 WARNING(ORCAP-36042): Pin "SDX_VDD" is renamed to "SDX_VDD#6" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#240 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#8" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#241 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#14" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#242 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#20" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#243 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#26" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#244 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#32" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#245 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#38" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#246 WARNING(ORCAP-36042): Pin "GPIO0-27_VDD" is renamed to "GPIO0-27_VDD#40" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#247 WARNING(ORCAP-36042): Pin "GPIO28-45_VDD" is renamed to "GPIO28-45_VDD#41" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#248 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#43" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#249 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#49" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#250 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#55" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#251 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#91" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#252 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#97" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#253 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#103" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#254 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#109" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#255 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#115" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#256 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#121" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#257 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#127" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#258 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#133" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#259 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#139" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#260 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#145" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#261 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#151" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#262 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#157" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#263 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#163" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#264 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#169" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#265 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#181" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#266 WARNING(ORCAP-36042): Pin "1V8" is renamed to "1V8#183" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#267 WARNING(ORCAP-36042): Pin "1V8" is renamed to "1V8#185" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#268 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#187" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#269 WARNING(ORCAP-36042): Pin "VDAC" is renamed to "VDAC#189" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#270 WARNING(ORCAP-36042): Pin "3V3" is renamed to "3V3#191" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#271 WARNING(ORCAP-36042): Pin "3V3" is renamed to "3V3#193" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#272 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#195" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#273 WARNING(ORCAP-36042): Pin "VBAT" is renamed to "VBAT#197" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#274 WARNING(ORCAP-36042): Pin "VBAT" is renamed to "VBAT#199" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#275 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#164" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#276 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#170" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#277 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#182" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#278 WARNING(ORCAP-36042): Pin "1V8" is renamed to "1V8#184" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#279 WARNING(ORCAP-36042): Pin "1V8" is renamed to "1V8#186" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#280 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#188" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#281 WARNING(ORCAP-36042): Pin "VDAC" is renamed to "VDAC#190" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#282 WARNING(ORCAP-36042): Pin "3V3" is renamed to "3V3#192" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#283 WARNING(ORCAP-36042): Pin "3V3" is renamed to "3V3#194" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#284 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#196" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#285 WARNING(ORCAP-36042): Pin "VBAT" is renamed to "VBAT#198" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#286 WARNING(ORCAP-36042): Pin "VBAT" is renamed to "VBAT#200" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#287 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#152" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#288 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#134" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#289 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#140" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#290 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#146" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#291 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#104" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#292 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#110" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#293 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#116" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#294 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#122" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#295 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#92" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#296 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#98" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#297 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#86" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#298 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#85" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#299 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#74" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#300 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#80" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#301 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#73" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#302 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#79" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#303 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#62" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#304 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#68" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#305 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#61" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#306 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#67" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#307 WARNING(ORCAP-36042): Pin "GPIO28-45_VDD" is renamed to "GPIO28-45_VDD#42" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#308 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#44" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#309 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#50" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#310 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#56" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
-#311 WARNING(ORCAP-36006): Part Name "RJ45-POE+ - 7499410213_J-RJ45-7499410213_RJ45-7499410213" is renamed to "RJ45-POE+ - 7499410213_J-RJ45-7".
-#312 WARNING(ORCAP-36006): Part Name "MC - J-2-0350-MOT-MC_J-2-0350-MOT-MC_MC-MOT-2P" is renamed to "MC - J-2-0350-MOT-MC_J-2-0350-M".
-#313 WARNING(ORCAP-36006): Part Name "NANOSIM - J-NANOSIM-SF72S006VBA_J-NANOSIM-SF72S006VBA_NANOSIM - SF72S006VBDR2500" is renamed to "NANOSIM - J-NANOSIM-SF72S006VBA".
-#314 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#5" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
-#315 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#8" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
-#316 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#9" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
-#317 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#11" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
-#318 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#12" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
-#319 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#14" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
-#320 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#15" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
-#321 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#16" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
-#322 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#17" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
-#323 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#18" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
-#324 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#19" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
-#325 WARNING(ORCAP-36006): Part Name "STRIP-J-4-0254-MDT_J-4-0254-MDT_STRIP 4P - MDT" is renamed to "STRIP-J-4-0254-MDT_J-4-0254-MDT".
-#326 WARNING(ORCAP-36006): Part Name "STRIP-J-2X2-0254-MDS-TSM_J-2X2-0254-MDT-TSM_STRIPLINE 2PX2" is renamed to "STRIP-J-2X2-0254-MDS-TSM_J-2X2-".
-#327 WARNING(ORCAP-36006): Part Name "JACK-PW - J-CUPJ002AH_J-CUPJ002AH_PJ-002AH-SMT" is renamed to "JACK-PW - J-CUPJ002AH_J-CUPJ002".
-#328 WARNING(ORCAP-36042): Pin "+" is renamed to "+#1A" as visible power pin of same name already exists in Package JACK-PW - J-CUPJ002AH , J7: BALENA FIN, 02 - POWER (45.72, 91.44).
-#329 WARNING(ORCAP-36042): Pin "+" is renamed to "+#1B" as visible power pin of same name already exists in Package JACK-PW - J-CUPJ002AH , J7: BALENA FIN, 02 - POWER (45.72, 91.44).
-#330 WARNING(ORCAP-36006): Part Name "UFL - U-FL-R-SMT-1-10_J-3-MDS-UFL_UFL-R-SMT-1-10" is renamed to "UFL - U-FL-R-SMT-1-10_J-3-MDS-U".
-#331 WARNING(ORCAP-36006): Part Name "FIL-BLM15PX121SN1D- 120R/2A_LS-0402_BLM15PX121SN1D" is renamed to "FIL-BLM15PX121SN1D- 120R/2A_LS-".
-#332 WARNING(ORCAP-36006): Part Name "L - L-07C2N2SV6T-2.2N/0.3A_LS-0402_L-07C2N2SV6T" is renamed to "L - L-07C2N2SV6T-2.2N/0.3A_LS-0".
-#333 WARNING(ORCAP-36006): Part Name "LCFE080602G900TG_1_EMI_FILTER_LCFE080602G900TG" is renamed to "LCFE080602G900TG_1_EMI_FILTER_L".
-#334 WARNING(ORCAP-36006): Part Name "FIL-BLM18PG121SN1D-120R/2A_LS-0603_BLM18PG121SN1D" is renamed to "FIL-BLM18PG121SN1D-120R/2A_LS-0".
-#335 WARNING(ORCAP-36006): Part Name "L - L-07C1N8SV6T-1.8N/0.3A_LS-0402_NU" is renamed to "L - L-07C1N8SV6T-1.8N/0.3A_LS-0".
-#336 WARNING(ORCAP-36006): Part Name "PW-IHLP1212BZER1R0M11-1U/5A_LS-VIIHLP1212BZ11_1U/5A" is renamed to "PW-IHLP1212BZER1R0M11-1U/5A_LS-".
-#337 WARNING(ORCAP-36006): Part Name "LED V - GENERICO - 0603_LD-0603_GENERICO" is renamed to "LED V - GENERICO - 0603_LD-0603".
-#338 WARNING(ORCAP-36006): Part Name "LED G - KPT-1608YC - 0603_LD-0603_KPT-1608YC" is renamed to "LED G - KPT-1608YC - 0603_LD-06".
-#339 WARNING(ORCAP-36006): Part Name "LED R - GENERICO - 0603_LD-0603_GENERICO" is renamed to "LED R - GENERICO - 0603_LD-0603".
-#340 WARNING(ORCAP-36006): Part Name "LED RGB - ASMT-YTB7-0AA02_LD-PLCC6-GUIDAVLP_ASMT-YTB7-0AA02" is renamed to "LED RGB - ASMT-YTB7-0AA02_LD-PL".
-#341 WARNING(ORCAP-36006): Part Name "WIFI-BLE - WYSBHVGXG_MOD-WYSBHVGXG_WYSBHVGXG" is renamed to "WIFI-BLE - WYSBHVGXG_MOD-WYSBHV".
-#342 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#A1" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#343 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#A9" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#344 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#B5" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#345 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#E4" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#346 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#E6" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#347 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#E9" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#348 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#F1" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#349 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#F8" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#350 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#G8" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#351 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#H4" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#352 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#H6" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#353 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#H9" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#354 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#M1" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#355 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#M3" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#356 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#M4" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#357 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#M5" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#358 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#M9" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#359 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#N5" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
-#360 WARNING(ORCAP-36006): Part Name "ARTIK - 020_MOD-ARTIK-020_BGM111A256V21R" is renamed to "ARTIK - 020_MOD-ARTIK-020_BGM11".
-#361 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#1" as visible power pin of same name already exists in Package ARTIK - 020 , MOD2: BALENA FIN, 06 - MCU (71.12, 17.78).
-#362 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#12" as visible power pin of same name already exists in Package ARTIK - 020 , MOD2: BALENA FIN, 06 - MCU (71.12, 17.78).
-#363 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#31" as visible power pin of same name already exists in Package ARTIK - 020 , MOD2: BALENA FIN, 06 - MCU (71.12, 17.78).
-#364 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#20" as visible power pin of same name already exists in Package ARTIK - 020 , MOD2: BALENA FIN, 06 - MCU (71.12, 17.78).
-#365 WARNING(ORCAP-36006): Part Name "SUPPORT PCB - DLCBST-1-01__DLCBST-1-01" is renamed to "SUPPORT PCB - DLCBST-1-01__DLCB".
-#366 WARNING(ORCAP-36006): Part Name "NMOS - BSS138 - 0.2A/50V_SOT23_BSS138" is renamed to "NMOS - BSS138 - 0.2A/50V_SOT23_".
-#367 WARNING(ORCAP-36006): Part Name "PMOS - SISS27DN - 23A/30V_POWERVDFN8-0330X0330_SISS27DN-T1-GE3" is renamed to "PMOS - SISS27DN - 23A/30V_POWER".
-#368 WARNING(ORCAP-36006): Part Name "PNPPNP - DMMT5401-7-F-0.2A/150V_SOT23-6L_DMMT5401-7-F" is renamed to "PNPPNP - DMMT5401-7-F-0.2A/150V".
-#369 WARNING(ORCAP-36006): Part Name "N-P MOS-FDC6327C-2.7A/1.9A/20V_SOT23-6-DBV_FDC6327C" is renamed to "N-P MOS-FDC6327C-2.7A/1.9A/20V_".
-#370 WARNING(ORCAP-36006): Part Name "NMOS-2X - PMGD280UN - 0.87A/20V_SOT363_PMGD280UN" is renamed to "NMOS-2X - PMGD280UN - 0.87A/20V".
-#371 WARNING(ORCAP-36006): Part Name "NMOS - DMN3053L-7 - 4A/30V_SOT23_DMN3053L-7" is renamed to "NMOS - DMN3053L-7 - 4A/30V_SOT2".
-#372 WARNING(ORCAP-36006): Part Name "RR-8X-1506-100R/5%_RR-8X-1506_100R/5%" is renamed to "RR-8X-1506-100R/5%_RR-8X-1506_1".
-#373 WARNING(ORCAP-36006): Part Name "RR-8X-1506-10K/5%_RR-8X-1506_10K/5%" is renamed to "RR-8X-1506-10K/5%_RR-8X-1506_10".
-#374 WARNING(ORCAP-36006): Part Name "TEST POINT SMD 1 MM_TPS-0100_TPS" is renamed to "TEST POINT SMD 1 MM_TPS-0100_TP".
-#375 WARNING(ORCAP-36006): Part Name "TEST POINT THT - 2.2MM_TPT-0100_TPT" is renamed to "TEST POINT THT - 2.2MM_TPT-0100".
-#376 WARNING(ORCAP-36006): Part Name "TVS-UNI - SMBJ36A - 36V/600W_SMB_SMBJ36A" is renamed to "TVS-UNI - SMBJ36A - 36V/600W_SM".
-#377 WARNING(ORCAP-36006): Part Name "TVS-UNI - SM2T3V3A - 3.6V/200W_D-DO216AA_SM2T3V3A" is renamed to "TVS-UNI - SM2T3V3A - 3.6V/200W_".
-#378 WARNING(ORCAP-36006): Part Name "TVS-UNI - SM6T6V8A - 6.8V/600W_SMB_SM6T6V8A" is renamed to "TVS-UNI - SM6T6V8A - 6.8V/600W_".
-#379 WARNING(ORCAP-36006): Part Name "TVS-UNI3X - TPD3E001DRLR - USB_SOP5_TPD3E001DRLR" is renamed to "TVS-UNI3X - TPD3E001DRLR - USB_".
-#380 WARNING(ORCAP-36006): Part Name "TVS-UNI6X - TPD6E001RSER_UFQFN10_TPD6E001RSER" is renamed to "TVS-UNI6X - TPD6E001RSER_UFQFN1".
-#381 WARNING(ORCAP-36006): Part Name "HDMI-TPD12S016RKTR-ESD PROTECT_UFQFN24-4X2_TPD12S016RKTR" is renamed to "HDMI-TPD12S016RKTR-ESD PROTECT_".
-#382 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#5" as visible power pin of same name already exists in Package HDMI-TPD12S016RKTR-ESD PROTECT , U1: BALENA FIN, 01 - CML3 CONNECTOR (294.64, 50.80).
-#383 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#13" as visible power pin of same name already exists in Package HDMI-TPD12S016RKTR-ESD PROTECT , U1: BALENA FIN, 01 - CML3 CONNECTOR (294.64, 50.80).
-#384 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#18" as visible power pin of same name already exists in Package HDMI-TPD12S016RKTR-ESD PROTECT , U1: BALENA FIN, 01 - CML3 CONNECTOR (294.64, 50.80).
-#385 WARNING(ORCAP-36006): Part Name "USB-PSW - TPS2051CDBVR_SOT23-5_TPS2051CDBVR" is renamed to "USB-PSW - TPS2051CDBVR_SOT23-5_".
-#386 WARNING(ORCAP-36006): Part Name "SWITCH-USB - FSUSB42UMX_UMLP10_FSUSB42UMX" is renamed to "SWITCH-USB - FSUSB42UMX_UMLP10_".
-#387 WARNING(ORCAP-36006): Part Name "EMMC - SDINBDG4-8G-I - 8GB_VFBGA153_SDINBDG4-8G-I" is renamed to "EMMC - SDINBDG4-8G-I - 8GB_VFBG".
-#388 WARNING(ORCAP-36042): Pin "VSSQ" is renamed to "VSSQ#C4" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#389 WARNING(ORCAP-36042): Pin "VCCQ" is renamed to "VCCQ#C6" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#390 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#E6" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#391 WARNING(ORCAP-36042): Pin "VSS" is renamed to "VSS#E7" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#392 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#F5" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#393 WARNING(ORCAP-36042): Pin "VSS" is renamed to "VSS#G5" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#394 WARNING(ORCAP-36042): Pin "VSS" is renamed to "VSS#H10" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#395 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#J10" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#396 WARNING(ORCAP-36042): Pin "VSS" is renamed to "VSS#K8" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#397 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#K9" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#398 WARNING(ORCAP-36042): Pin "VCCQ" is renamed to "VCCQ#M4" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#399 WARNING(ORCAP-36042): Pin "VCCQ" is renamed to "VCCQ#P3" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#400 WARNING(ORCAP-36042): Pin "VSSQ" is renamed to "VSSQ#P4" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#401 WARNING(ORCAP-36042): Pin "VCCQ" is renamed to "VCCQ#P5" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#402 WARNING(ORCAP-36042): Pin "VSSQ" is renamed to "VSSQ#P6" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#403 WARNING(ORCAP-36042): Pin "VCCQ" is renamed to "VCCQ#N4" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#404 WARNING(ORCAP-36042): Pin "VSSQ" is renamed to "VSSQ#N2" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#405 WARNING(ORCAP-36042): Pin "VSSQ" is renamed to "VSSQ#N5" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
-#406 WARNING(ORCAP-36006): Part Name "EE - 93AA66CT-I-SN - 4KB_SOIC8_93AA66CT-I/SN" is renamed to "EE - 93AA66CT-I-SN - 4KB_SOIC8_".
-#407 WARNING(ORCAP-36006): Part Name "LDO - LD39050PUR - 0.5A/ADJ_IC-LD39050_LD39050PUR" is renamed to "LDO - LD39050PUR - 0.5A/ADJ_IC-".
-#408 WARNING(ORCAP-36006): Part Name "PSW - 1X - AP22800HB-7_UFDFN8-EXP-0210X0160_AP22800HB-7" is renamed to "PSW - 1X - AP22800HB-7_UFDFN8-E".
-#409 WARNING(ORCAP-36042): Pin "VIN" is renamed to "VIN#1" as visible power pin of same name already exists in Package PSW - 1x - AP22800HB-7 , U20: BALENA FIN, 02 - POWER (96.52, 172.72).
-#410 WARNING(ORCAP-36042): Pin "VIN" is renamed to "VIN#2" as visible power pin of same name already exists in Package PSW - 1x - AP22800HB-7 , U20: BALENA FIN, 02 - POWER (96.52, 172.72).
-#411 WARNING(ORCAP-36042): Pin "VOUT" is renamed to "VOUT#7" as visible power pin of same name already exists in Package PSW - 1x - AP22800HB-7 , U20: BALENA FIN, 02 - POWER (96.52, 172.72).
-#412 WARNING(ORCAP-36042): Pin "VOUT" is renamed to "VOUT#8" as visible power pin of same name already exists in Package PSW - 1x - AP22800HB-7 , U20: BALENA FIN, 02 - POWER (96.52, 172.72).
-#413 WARNING(ORCAP-36006): Part Name "USB-ETH-HUBX4 - LAN9514I_IC-LAN9514_LAN9514I-JZX" is renamed to "USB-ETH-HUBX4 - LAN9514I_IC-LAN".
-#414 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#5" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#415 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#10" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#416 WARNING(ORCAP-36042): Pin "VDD18CORE" is renamed to "VDD18CORE#15" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#417 WARNING(ORCAP-36042): Pin "VDD33IO" is renamed to "VDD33IO#27" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#418 WARNING(ORCAP-36042): Pin "VDD33IO" is renamed to "VDD33IO#19" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#419 WARNING(ORCAP-36042): Pin "VDD33IO" is renamed to "VDD33IO#46" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#420 WARNING(ORCAP-36042): Pin "VDD33IO" is renamed to "VDD33IO#39" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#421 WARNING(ORCAP-36042): Pin "VDD18CORE" is renamed to "VDD18CORE#38" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#422 WARNING(ORCAP-36042): Pin "VDD33IO" is renamed to "VDD33IO#33" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#423 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#64" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#424 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#57" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#425 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#54" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#426 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#51" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#427 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#49" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
-#428 WARNING(ORCAP-36006): Part Name "IO EXP-8B - PCA9554BS3-118_QFN16-EXP-3X3_PCA9554BS3-118" is renamed to "IO EXP-8B - PCA9554BS3-118_QFN1".
-#429 WARNING(ORCAP-36006): Part Name "RF-SW - BGS12SN6E6327XTSA1_XFDFN6_BGS12SN6E6327XTSA1" is renamed to "RF-SW - BGS12SN6E6327XTSA1_XFDF".
-#430 WARNING(ORCAP-36006): Part Name "BUCK-2X-LT8650SEV- 4A/ADJ_IC-LT8650SEV_LT8650SEV" is renamed to "BUCK-2X-LT8650SEV- 4A/ADJ_IC-LT".
-#431 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#2" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#432 WARNING(ORCAP-36042): Pin "VIN1" is renamed to "VIN1#4" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#433 WARNING(ORCAP-36042): Pin "VIN1" is renamed to "VIN1#5" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#434 WARNING(ORCAP-36042): Pin "VIN2" is renamed to "VIN2#7" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#435 WARNING(ORCAP-36042): Pin "VIN2" is renamed to "VIN2#8" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#436 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#10" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#437 WARNING(ORCAP-36042): Pin "SW2" is renamed to "SW2#19" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#438 WARNING(ORCAP-36042): Pin "SW2" is renamed to "SW2#20" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#439 WARNING(ORCAP-36042): Pin "SW1" is renamed to "SW1#22" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#440 WARNING(ORCAP-36042): Pin "SW1" is renamed to "SW1#23" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#441 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#33" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#442 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#34" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#443 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#35" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#444 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#36" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#445 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#37" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#446 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#38" as visible power pin of same name already exists in Package BUCK-2X-LT8650SEV- 4A/ADJ , U27: BALENA FIN, 02 - POWER (190.50, 60.96).
-#447 WARNING(ORCAP-36006): Part Name "LED DRIVER-4X - PCA9633DP1_MSOP8_PCA9633DP1" is renamed to "LED DRIVER-4X - PCA9633DP1_MSOP".
-#448 WARNING(ORCAP-36006): Part Name "MIPI-SWITCH - FSA642UMX_UFQFN24-0250X0340_FSA642UMX" is renamed to "MIPI-SWITCH - FSA642UMX_UFQFN24".
-#449 WARNING(ORCAP-36006): Part Name "MUX-AN-4X2-1 - 74CBTLV3257BQ_VFQFN16-EXP-0250X0300_74CBTLV3257BQ" is renamed to "MUX-AN-4X2-1 - 74CBTLV3257BQ_VF".
-#450 WARNING(ORCAP-36006): Part Name "LITIO - CR1225 - 48MAH/3V__3V/48MAH" is renamed to "LITIO - CR1225 - 48MAH/3V__3V/4".
-#451 WARNING(ORCAP-36006): Part Name "MORS.ESTR. - MC-3.50-2P__MC-3.50-2P" is renamed to "MORS.ESTR. - MC-3.50-2P__MC-3.5".
-#452 WARNING(ORCAP-36006): Part Name "QUARZO-ABM8G-25.000MHZ_Y-ABM8G_25MHZ" is renamed to "QUARZO-ABM8G-25.000MHZ_Y-ABM8G_".
-#453 WARNING(ORCAP-36006): Part Name "QUARZO-ABS05-32.768KHZ-T_Y-ABS05_ABS05-32.768KHZ-T" is renamed to "QUARZO-ABS05-32.768KHZ-T_Y-ABS0".
-#454 WARNING(ORCAP-36006): Part Name "OSCILLATORE - NZ2520SB-32.768K_Y-NZ2520S_NZ2520SB-32.768KHZ-NSA3534C" is renamed to "OSCILLATORE - NZ2520SB-32.768K_".
+#189 WARNING(ORCAP-36006): Part Name "CS-C-1206-22U/25V-X5R_CS-C-1206_4.7U/50V-X5R" is renamed to "CS-C-1206-22U/25V-X5R_CS-C-12_1".
+#190 WARNING(ORCAP-36006): Part Name "CS-C-1206-22U/25V-X5R_CS-C-1206_47U/6.3V-X5R" is renamed to "CS-C-1206-22U/25V-X5R_CS-C-12_2".
+#191 WARNING(ORCAP-36006): Part Name "CS-C-1206-22U/25V-X5R_CS-C-1206_100U/4V-X5R" is renamed to "CS-C-1206-22U/25V-X5R_CS-C-12_3".
+#192 WARNING(ORCAP-36006): Part Name "DIODO4X - BAV99BRVA-7 -0.2A/75V_SOT563_BAV99BRVA-7" is renamed to "DIODO4X - BAV99BRVA-7 -0.2A/75V".
+#193 WARNING(ORCAP-36006): Part Name "SCHOTTKY-CDBC560-G - 5A/60V_SMC_CDBC560-G" is renamed to "SCHOTTKY-CDBC560-G - 5A/60V_SMC".
+#194 WARNING(ORCAP-36006): Part Name "SCHOTTKY-MBRA160 - 1A/60V_SMA_1A/60V" is renamed to "SCHOTTKY-MBRA160 - 1A/60V_SMA_1".
+#195 WARNING(ORCAP-36006): Part Name "DIP-SW-1X-CHS-01TB-SMD_DSS-CHS-01TB_DIP-SW-CHS-01TB" is renamed to "DIP-SW-1X-CHS-01TB-SMD_DSS-CHS-".
+#196 WARNING(ORCAP-36006): Part Name "RAPIDO - 0154003.DR - 3A/125V_F-LT154_0154003-DR" is renamed to "RAPIDO - 0154003.DR - 3A/125V_F".
+#197 WARNING(ORCAP-36006): Part Name "PTC - 0ZCM0010FF2G - 0.1A/15V_FS-0603_0.1A/15V" is renamed to "PTC - 0ZCM0010FF2G - 0.1A/15V_F".
+#198 WARNING(ORCAP-36006): Part Name "PTC - MF-FSMF050X-2 -0.5A/6V_FS-0603_0.5A/6V" is renamed to "PTC - MF-FSMF050X-2 -0.5A/6V_FS".
+#199 WARNING(ORCAP-36006): Part Name "HDMI - J-19-0050-FOS-HDMI-A-CNC_J-19-0050-FOS-HDMI-A-CNCTECH_HDMI-TYPEA" is renamed to "HDMI - J-19-0050-FOS-HDMI-A-CNC".
+#200 WARNING(ORCAP-36006): Part Name "FPC-ZIF - J-15X2-0100-FDS-ZIF_J-15X2-0100-FDS-ZIF_1-1734248-5" is renamed to "FPC-ZIF - J-15X2-0100-FDS-ZIF_J".
+#201 WARNING(ORCAP-36006): Part Name "USB - J-8-0200-FOT-USB-A-2X_J-8-0200-FOT-USB-A-2X_USB TYPE A - 1002-004-01010" is renamed to "USB - J-8-0200-FOT-USB-A-2X_J-8".
+#202 WARNING(ORCAP-36006): Part Name "USB - MICROUSB-B-FCI10118192_J-5-0065-FOS-MICROUSB10118192_MICROUSB-B" is renamed to "USB - MICROUSB-B-FCI10118192_J-".
+#203 WARNING(ORCAP-36006): Part Name "STRIP-J-9X2-0254-MDT_J-9X2-0254-MDT_STRIP 9PX2 - MDT" is renamed to "STRIP-J-9X2-0254-MDT_J-9X2-0254".
+#204 WARNING(ORCAP-36006): Part Name "STRIP-J-20X2-0254-MDT_J-20X2-0254-MDT_STRIP 20PX2 - MDT" is renamed to "STRIP-J-20X2-0254-MDT_J-20X2-02".
+#205 WARNING(ORCAP-36006): Part Name "MPCIE - J-26X2-0080-FOS-2041119_J-26X2-0080-FOS-2041119_MPCIE-52P-2041119" is renamed to "MPCIE - J-26X2-0080-FOS-2041119".
+#206 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#9" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#207 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#15" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#208 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#21" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#209 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#27" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#210 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#29" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#211 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#35" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#212 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#37" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#213 WARNING(ORCAP-36042): Pin "+3V3aux" is renamed to "+3V3AUX#39" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#214 WARNING(ORCAP-36042): Pin "+3V3aux" is renamed to "+3V3AUX#41" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#215 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#43" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#216 WARNING(ORCAP-36042): Pin "+3V3aux" is renamed to "+3V3AUX#2" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#217 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#4" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#218 WARNING(ORCAP-36042): Pin "+1V5" is renamed to "+1V5#6" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#219 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#18" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#220 WARNING(ORCAP-36042): Pin "+3V3aux" is renamed to "+3V3AUX#24" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#221 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#26" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#222 WARNING(ORCAP-36042): Pin "+1V5" is renamed to "+1V5#28" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#223 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#34" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#224 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#40" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#225 WARNING(ORCAP-36042): Pin "+1V5" is renamed to "+1V5#48" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#226 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#50" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#227 WARNING(ORCAP-36042): Pin "+3V3aux" is renamed to "+3V3AUX#52" as visible power pin of same name already exists in Package mPCIE - J-26X2-0080-FOS-2041119 , J19: BALENA FIN, 09 - mPCIE (154.94, 78.74).
+#228 WARNING(ORCAP-36006): Part Name "SODIMM - CM3L - 1473005-4 _J-200-0060-MOS-1473005-4_SODIMM-CM3L-1473005-4" is renamed to "SODIMM - CM3L - 1473005-4 _J-20".
+#229 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#1" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#230 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#7" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#231 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#13" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#232 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#19" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#233 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#25" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#234 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#31" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#235 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#37" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#236 WARNING(ORCAP-36042): Pin "GPIO0-27_VDD" is renamed to "GPIO0-27_VDD#39" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#237 WARNING(ORCAP-36042): Pin "SDX_VDD" is renamed to "SDX_VDD#4" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#238 WARNING(ORCAP-36042): Pin "SDX_VDD" is renamed to "SDX_VDD#6" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#239 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#8" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#240 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#14" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#241 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#20" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#242 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#26" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#243 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#32" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#244 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#38" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#245 WARNING(ORCAP-36042): Pin "GPIO0-27_VDD" is renamed to "GPIO0-27_VDD#40" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#246 WARNING(ORCAP-36042): Pin "GPIO28-45_VDD" is renamed to "GPIO28-45_VDD#41" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#247 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#43" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#248 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#49" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#249 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#55" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#250 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#91" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#251 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#97" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#252 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#103" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#253 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#109" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#254 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#115" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#255 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#121" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#256 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#127" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#257 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#133" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#258 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#139" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#259 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#145" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#260 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#151" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#261 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#157" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#262 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#163" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#263 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#169" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#264 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#181" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#265 WARNING(ORCAP-36042): Pin "1V8" is renamed to "1V8#183" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#266 WARNING(ORCAP-36042): Pin "1V8" is renamed to "1V8#185" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#267 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#187" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#268 WARNING(ORCAP-36042): Pin "VDAC" is renamed to "VDAC#189" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#269 WARNING(ORCAP-36042): Pin "3V3" is renamed to "3V3#191" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#270 WARNING(ORCAP-36042): Pin "3V3" is renamed to "3V3#193" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#271 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#195" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#272 WARNING(ORCAP-36042): Pin "VBAT" is renamed to "VBAT#197" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#273 WARNING(ORCAP-36042): Pin "VBAT" is renamed to "VBAT#199" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#274 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#164" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#275 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#170" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#276 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#182" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#277 WARNING(ORCAP-36042): Pin "1V8" is renamed to "1V8#184" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#278 WARNING(ORCAP-36042): Pin "1V8" is renamed to "1V8#186" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#279 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#188" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#280 WARNING(ORCAP-36042): Pin "VDAC" is renamed to "VDAC#190" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#281 WARNING(ORCAP-36042): Pin "3V3" is renamed to "3V3#192" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#282 WARNING(ORCAP-36042): Pin "3V3" is renamed to "3V3#194" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#283 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#196" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#284 WARNING(ORCAP-36042): Pin "VBAT" is renamed to "VBAT#198" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#285 WARNING(ORCAP-36042): Pin "VBAT" is renamed to "VBAT#200" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#286 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#152" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#287 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#134" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#288 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#140" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#289 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#146" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#290 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#104" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#291 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#110" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#292 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#116" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#293 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#122" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#294 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#92" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#295 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#98" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#296 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#86" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#297 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#85" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#298 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#74" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#299 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#80" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#300 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#73" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#301 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#79" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#302 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#62" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#303 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#68" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#304 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#61" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#305 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#67" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#306 WARNING(ORCAP-36042): Pin "GPIO28-45_VDD" is renamed to "GPIO28-45_VDD#42" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#307 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#44" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#308 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#50" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#309 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#56" as visible power pin of same name already exists in Package SODIMM - CM3L - 1473005-4 , J2: BALENA FIN, 01 - CML3 CONNECTOR (91.44, 20.32).
+#310 WARNING(ORCAP-36006): Part Name "RJ45-POE+ - 7499410213_J-RJ45-7499410213_RJ45-7499410213" is renamed to "RJ45-POE+ - 7499410213_J-RJ45-7".
+#311 WARNING(ORCAP-36006): Part Name "MC - J-2-0350-MOT-MC_J-2-0350-MOT-MC_MC-MOT-2P" is renamed to "MC - J-2-0350-MOT-MC_J-2-0350-M".
+#312 WARNING(ORCAP-36006): Part Name "NANOSIM - J-NANOSIM-SF72S006VBA_J-NANOSIM-SF72S006VBA_NANOSIM - SF72S006VBDR2500" is renamed to "NANOSIM - J-NANOSIM-SF72S006VBA".
+#313 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#5" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
+#314 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#8" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
+#315 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#9" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
+#316 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#11" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
+#317 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#12" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
+#318 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#14" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
+#319 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#15" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
+#320 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#16" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
+#321 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#17" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
+#322 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#18" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
+#323 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#19" as visible power pin of same name already exists in Package NANOSIM - J-NANOSIM-SF72S006VBA , J22: BALENA FIN, 09 - mPCIE (327.66, 86.36).
+#324 WARNING(ORCAP-36006): Part Name "STRIP-J-4-0254-MDT_J-4-0254-MDT_STRIP 4P - MDT" is renamed to "STRIP-J-4-0254-MDT_J-4-0254-MDT".
+#325 WARNING(ORCAP-36006): Part Name "STRIP-J-2X2-0254-MDS-TSM_J-2X2-0254-MDT-TSM_STRIPLINE 2PX2" is renamed to "STRIP-J-2X2-0254-MDS-TSM_J-2X2-".
+#326 WARNING(ORCAP-36006): Part Name "JACK-PW - J-CUPJ002AH_J-CUPJ002AH_PJ-002AH-SMT" is renamed to "JACK-PW - J-CUPJ002AH_J-CUPJ002".
+#327 WARNING(ORCAP-36042): Pin "+" is renamed to "+#1A" as visible power pin of same name already exists in Package JACK-PW - J-CUPJ002AH , J7: BALENA FIN, 02 - POWER (22.86, 76.20).
+#328 WARNING(ORCAP-36042): Pin "+" is renamed to "+#1B" as visible power pin of same name already exists in Package JACK-PW - J-CUPJ002AH , J7: BALENA FIN, 02 - POWER (22.86, 76.20).
+#329 WARNING(ORCAP-36006): Part Name "UFL - U-FL-R-SMT-1-10_J-3-MDS-UFL_UFL-R-SMT-1-10" is renamed to "UFL - U-FL-R-SMT-1-10_J-3-MDS-U".
+#330 WARNING(ORCAP-36006): Part Name "FIL-BLM15PX121SN1D- 120R/2A_LS-0402_BLM15PX121SN1D" is renamed to "FIL-BLM15PX121SN1D- 120R/2A_LS-".
+#331 WARNING(ORCAP-36006): Part Name "L - L-07C2N2SV6T-2.2N/0.3A_LS-0402_L-07C2N2SV6T" is renamed to "L - L-07C2N2SV6T-2.2N/0.3A_LS-0".
+#332 WARNING(ORCAP-36006): Part Name "LCFE080602G900TG_1_EMI_FILTER_LCFE080602G900TG" is renamed to "LCFE080602G900TG_1_EMI_FILTER_L".
+#333 WARNING(ORCAP-36006): Part Name "FIL-BLM18PG121SN1D-120R/2A_LS-0603_BLM18PG121SN1D" is renamed to "FIL-BLM18PG121SN1D-120R/2A_LS-0".
+#334 WARNING(ORCAP-36006): Part Name "L - L-07C1N8SV6T-1.8N/0.3A_LS-0402_NU" is renamed to "L - L-07C1N8SV6T-1.8N/0.3A_LS-0".
+#335 WARNING(ORCAP-36006): Part Name "LED V - GENERICO - 0603_LD-0603_GENERICO" is renamed to "LED V - GENERICO - 0603_LD-0603".
+#336 WARNING(ORCAP-36006): Part Name "LED G - KPT-1608YC - 0603_LD-0603_KPT-1608YC" is renamed to "LED G - KPT-1608YC - 0603_LD-06".
+#337 WARNING(ORCAP-36006): Part Name "LED R - GENERICO - 0603_LD-0603_GENERICO" is renamed to "LED R - GENERICO - 0603_LD-0603".
+#338 WARNING(ORCAP-36006): Part Name "LED RGB - ASMT-YTB7-0AA02_LD-PLCC6-GUIDAVLP_ASMT-YTB7-0AA02" is renamed to "LED RGB - ASMT-YTB7-0AA02_LD-PL".
+#339 WARNING(ORCAP-36006): Part Name "WIFI-BLE - WYSBHVGXG_MOD-WYSBHVGXG_WYSBHVGXG" is renamed to "WIFI-BLE - WYSBHVGXG_MOD-WYSBHV".
+#340 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#A1" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#341 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#A9" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#342 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#B5" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#343 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#E4" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#344 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#E6" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#345 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#E9" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#346 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#F1" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#347 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#F8" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#348 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#G8" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#349 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#H4" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#350 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#H6" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#351 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#H9" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#352 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#M1" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#353 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#M3" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#354 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#M4" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#355 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#M5" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#356 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#M9" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#357 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#N5" as visible power pin of same name already exists in Package WIFI-BLE - WYSBHVGXG , MOD1: BALENA FIN, 03 - WIFI - BLE (175.26, 86.36).
+#358 WARNING(ORCAP-36006): Part Name "ARTIK - 020_MOD-ARTIK-020_BGM111A256V21R" is renamed to "ARTIK - 020_MOD-ARTIK-020_BGM11".
+#359 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#1" as visible power pin of same name already exists in Package ARTIK - 020 , MOD2: BALENA FIN, 06 - MCU (71.12, 17.78).
+#360 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#12" as visible power pin of same name already exists in Package ARTIK - 020 , MOD2: BALENA FIN, 06 - MCU (71.12, 17.78).
+#361 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#31" as visible power pin of same name already exists in Package ARTIK - 020 , MOD2: BALENA FIN, 06 - MCU (71.12, 17.78).
+#362 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#20" as visible power pin of same name already exists in Package ARTIK - 020 , MOD2: BALENA FIN, 06 - MCU (71.12, 17.78).
+#363 WARNING(ORCAP-36006): Part Name "SUPPORT PCB - DLCBST-1-01__DLCBST-1-01" is renamed to "SUPPORT PCB - DLCBST-1-01__DLCB".
+#364 WARNING(ORCAP-36006): Part Name "NMOS - BSS138 - 0.2A/50V_SOT23_BSS138" is renamed to "NMOS - BSS138 - 0.2A/50V_SOT23_".
+#365 WARNING(ORCAP-36006): Part Name "PMOS - SISS27DN - 23A/30V_POWERVDFN8-0330X0330_SISS27DN-T1-GE3" is renamed to "PMOS - SISS27DN - 23A/30V_POWER".
+#366 WARNING(ORCAP-36006): Part Name "PNPPNP - DMMT5401-7-F-0.2A/150V_SOT23-6L_DMMT5401-7-F" is renamed to "PNPPNP - DMMT5401-7-F-0.2A/150V".
+#367 WARNING(ORCAP-36006): Part Name "N-P MOS-FDC6327C-2.7A/1.9A/20V_SOT23-6-DBV_FDC6327C" is renamed to "N-P MOS-FDC6327C-2.7A/1.9A/20V_".
+#368 WARNING(ORCAP-36006): Part Name "NMOS-2X - PMGD280UN - 0.87A/20V_SOT363_PMGD280UN" is renamed to "NMOS-2X - PMGD280UN - 0.87A/20V".
+#369 WARNING(ORCAP-36006): Part Name "NMOS - DMN3053L-7 - 4A/30V_SOT23_DMN3053L-7" is renamed to "NMOS - DMN3053L-7 - 4A/30V_SOT2".
+#370 WARNING(ORCAP-36006): Part Name "RR-8X-1506-100R/5%_RR-8X-1506_100R/5%" is renamed to "RR-8X-1506-100R/5%_RR-8X-1506_1".
+#371 WARNING(ORCAP-36006): Part Name "RR-8X-1506-10K/5%_RR-8X-1506_10K/5%" is renamed to "RR-8X-1506-10K/5%_RR-8X-1506_10".
+#372 WARNING(ORCAP-36006): Part Name "TEST POINT SMD 1 MM_TPS-0100_TPS" is renamed to "TEST POINT SMD 1 MM_TPS-0100_TP".
+#373 WARNING(ORCAP-36006): Part Name "TEST POINT THT - 2.2MM_TPT-0100_TPT" is renamed to "TEST POINT THT - 2.2MM_TPT-0100".
+#374 WARNING(ORCAP-36006): Part Name "TVS-UNI - SMBJ36A - 36V/600W_SMB_SMBJ36A" is renamed to "TVS-UNI - SMBJ36A - 36V/600W_SM".
+#375 WARNING(ORCAP-36006): Part Name "TVS-UNI - SM2T3V3A - 3.6V/200W_D-DO216AA_SM2T3V3A" is renamed to "TVS-UNI - SM2T3V3A - 3.6V/200W_".
+#376 WARNING(ORCAP-36006): Part Name "TVS-UNI - SM6T6V8A - 6.8V/600W_SMB_SM6T6V8A" is renamed to "TVS-UNI - SM6T6V8A - 6.8V/600W_".
+#377 WARNING(ORCAP-36006): Part Name "TVS-UNI3X - TPD3E001DRLR - USB_SOP5_TPD3E001DRLR" is renamed to "TVS-UNI3X - TPD3E001DRLR - USB_".
+#378 WARNING(ORCAP-36006): Part Name "TVS-UNI6X - TPD6E001RSER_UFQFN10_TPD6E001RSER" is renamed to "TVS-UNI6X - TPD6E001RSER_UFQFN1".
+#379 WARNING(ORCAP-36006): Part Name "HDMI-TPD12S016RKTR-ESD PROTECT_UFQFN24-4X2_TPD12S016RKTR" is renamed to "HDMI-TPD12S016RKTR-ESD PROTECT_".
+#380 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#5" as visible power pin of same name already exists in Package HDMI-TPD12S016RKTR-ESD PROTECT , U1: BALENA FIN, 01 - CML3 CONNECTOR (294.64, 50.80).
+#381 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#13" as visible power pin of same name already exists in Package HDMI-TPD12S016RKTR-ESD PROTECT , U1: BALENA FIN, 01 - CML3 CONNECTOR (294.64, 50.80).
+#382 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#18" as visible power pin of same name already exists in Package HDMI-TPD12S016RKTR-ESD PROTECT , U1: BALENA FIN, 01 - CML3 CONNECTOR (294.64, 50.80).
+#383 WARNING(ORCAP-36006): Part Name "USB-PSW - TPS2051CDBVR_SOT23-5_TPS2051CDBVR" is renamed to "USB-PSW - TPS2051CDBVR_SOT23-5_".
+#384 WARNING(ORCAP-36006): Part Name "SWITCH-USB - FSUSB42UMX_UMLP10_FSUSB42UMX" is renamed to "SWITCH-USB - FSUSB42UMX_UMLP10_".
+#385 WARNING(ORCAP-36006): Part Name "EMMC - SDINBDG4-8G-I - 8GB_VFBGA153_SDINBDG4-8G-I" is renamed to "EMMC - SDINBDG4-8G-I - 8GB_VFBG".
+#386 WARNING(ORCAP-36042): Pin "VSSQ" is renamed to "VSSQ#C4" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#387 WARNING(ORCAP-36042): Pin "VCCQ" is renamed to "VCCQ#C6" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#388 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#E6" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#389 WARNING(ORCAP-36042): Pin "VSS" is renamed to "VSS#E7" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#390 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#F5" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#391 WARNING(ORCAP-36042): Pin "VSS" is renamed to "VSS#G5" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#392 WARNING(ORCAP-36042): Pin "VSS" is renamed to "VSS#H10" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#393 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#J10" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#394 WARNING(ORCAP-36042): Pin "VSS" is renamed to "VSS#K8" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#395 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#K9" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#396 WARNING(ORCAP-36042): Pin "VCCQ" is renamed to "VCCQ#M4" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#397 WARNING(ORCAP-36042): Pin "VCCQ" is renamed to "VCCQ#P3" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#398 WARNING(ORCAP-36042): Pin "VSSQ" is renamed to "VSSQ#P4" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#399 WARNING(ORCAP-36042): Pin "VCCQ" is renamed to "VCCQ#P5" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#400 WARNING(ORCAP-36042): Pin "VSSQ" is renamed to "VSSQ#P6" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#401 WARNING(ORCAP-36042): Pin "VCCQ" is renamed to "VCCQ#N4" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#402 WARNING(ORCAP-36042): Pin "VSSQ" is renamed to "VSSQ#N2" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#403 WARNING(ORCAP-36042): Pin "VSSQ" is renamed to "VSSQ#N5" as visible power pin of same name already exists in Package eMMC - SDINBDG4-8G-I - 8GB , U17: BALENA FIN, 07 - eMMC (154.94, 71.12).
+#404 WARNING(ORCAP-36006): Part Name "EE - 93AA66CT-I-SN - 4KB_SOIC8_93AA66CT-I/SN" is renamed to "EE - 93AA66CT-I-SN - 4KB_SOIC8_".
+#405 WARNING(ORCAP-36006): Part Name "LDO - LD39050PUR - 0.5A/ADJ_IC-LD39050_LD39050PUR" is renamed to "LDO - LD39050PUR - 0.5A/ADJ_IC-".
+#406 WARNING(ORCAP-36006): Part Name "PSW - 1X - AP22800HB-7_UFDFN8-EXP-0210X0160_AP22800HB-7" is renamed to "PSW - 1X - AP22800HB-7_UFDFN8-E".
+#407 WARNING(ORCAP-36042): Pin "VIN" is renamed to "VIN#1" as visible power pin of same name already exists in Package PSW - 1x - AP22800HB-7 , U20: BALENA FIN, 02 - POWER (71.12, 144.78).
+#408 WARNING(ORCAP-36042): Pin "VIN" is renamed to "VIN#2" as visible power pin of same name already exists in Package PSW - 1x - AP22800HB-7 , U20: BALENA FIN, 02 - POWER (71.12, 144.78).
+#409 WARNING(ORCAP-36042): Pin "VOUT" is renamed to "VOUT#7" as visible power pin of same name already exists in Package PSW - 1x - AP22800HB-7 , U20: BALENA FIN, 02 - POWER (71.12, 144.78).
+#410 WARNING(ORCAP-36042): Pin "VOUT" is renamed to "VOUT#8" as visible power pin of same name already exists in Package PSW - 1x - AP22800HB-7 , U20: BALENA FIN, 02 - POWER (71.12, 144.78).
+#411 WARNING(ORCAP-36006): Part Name "USB-ETH-HUBX4 - LAN9514I_IC-LAN9514_LAN9514I-JZX" is renamed to "USB-ETH-HUBX4 - LAN9514I_IC-LAN".
+#412 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#5" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#413 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#10" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#414 WARNING(ORCAP-36042): Pin "VDD18CORE" is renamed to "VDD18CORE#15" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#415 WARNING(ORCAP-36042): Pin "VDD33IO" is renamed to "VDD33IO#27" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#416 WARNING(ORCAP-36042): Pin "VDD33IO" is renamed to "VDD33IO#19" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#417 WARNING(ORCAP-36042): Pin "VDD33IO" is renamed to "VDD33IO#46" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#418 WARNING(ORCAP-36042): Pin "VDD33IO" is renamed to "VDD33IO#39" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#419 WARNING(ORCAP-36042): Pin "VDD18CORE" is renamed to "VDD18CORE#38" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#420 WARNING(ORCAP-36042): Pin "VDD33IO" is renamed to "VDD33IO#33" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#421 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#64" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#422 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#57" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#423 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#54" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#424 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#51" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#425 WARNING(ORCAP-36042): Pin "VDD33A" is renamed to "VDD33A#49" as visible power pin of same name already exists in Package USB-ETH-HUBx4 - LAN9514I , U22: BALENA FIN, 10 - ETHERNET (269.24, 99.06).
+#426 WARNING(ORCAP-36006): Part Name "IO EXP-8B - PCA9554BS3-118_QFN16-EXP-3X3_PCA9554BS3-118" is renamed to "IO EXP-8B - PCA9554BS3-118_QFN1".
+#427 WARNING(ORCAP-36006): Part Name "RF-SW - BGS12SN6E6327XTSA1_XFDFN6_BGS12SN6E6327XTSA1" is renamed to "RF-SW - BGS12SN6E6327XTSA1_XFDF".
+#428 WARNING(ORCAP-36006): Part Name "LED DRIVER-4X - PCA9633DP1_MSOP8_PCA9633DP1" is renamed to "LED DRIVER-4X - PCA9633DP1_MSOP".
+#429 WARNING(ORCAP-36006): Part Name "MIPI-SWITCH - FSA642UMX_UFQFN24-0250X0340_FSA642UMX" is renamed to "MIPI-SWITCH - FSA642UMX_UFQFN24".
+#430 WARNING(ORCAP-36006): Part Name "MUX-AN-4X2-1 - 74CBTLV3257BQ_VFQFN16-EXP-0250X0300_74CBTLV3257BQ" is renamed to "MUX-AN-4X2-1 - 74CBTLV3257BQ_VF".
+#431 WARNING(ORCAP-36006): Part Name "LITIO - CR1225 - 48MAH/3V__3V/48MAH" is renamed to "LITIO - CR1225 - 48MAH/3V__3V/4".
+#432 WARNING(ORCAP-36006): Part Name "MORS.ESTR. - MC-3.50-2P__MC-3.50-2P" is renamed to "MORS.ESTR. - MC-3.50-2P__MC-3.5".
+#433 WARNING(ORCAP-36006): Part Name "QUARZO-ABM8G-25.000MHZ_Y-ABM8G_25MHZ" is renamed to "QUARZO-ABM8G-25.000MHZ_Y-ABM8G_".
+#434 WARNING(ORCAP-36006): Part Name "QUARZO-ABS05-32.768KHZ-T_Y-ABS05_ABS05-32.768KHZ-T" is renamed to "QUARZO-ABS05-32.768KHZ-T_Y-ABS0".
+#435 WARNING(ORCAP-36006): Part Name "OSCILLATORE - NZ2520SB-32.768K_Y-NZ2520S_NZ2520SB-32.768KHZ-NSA3534C" is renamed to "OSCILLATORE - NZ2520SB-32.768K_".
 INFO(ORCAP-36080): Scanning netlist files ...
 
 Loading... \\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\netlist/pstchip.dat

@@ -1,0 +1,26 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : balenaFin-PCB.brd                             )
+(    Software Version : 17.2S075                                      )
+(    Date/Time        : Mon Sep 13 12:03:43 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	.
+	symbols
+	..
+	../symbols
+	C:/Cadence/SPB_17.2/share/local/pcb/symbols
+	C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+	C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols
+
+
+All Symbols Found
+
+Total symbols placed:      477 out of 477
+
+

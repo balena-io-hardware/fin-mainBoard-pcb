@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001May-13-2021 at 20:02:57 }
+{ Using PSTWRITER 17.2.0 d001Sep-09-2021 at 11:14:09 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='20173009_BALENA-FIN_V12';
@@ -1100,98 +1100,6 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C212 'CS-C-0402_CS-C-0402_NU':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18693970@CONDENSATORI - FAE++.CS-C-0402.NORMAL(CHIPS)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18693970@\condensatori - fae++\.\cs-c-0402.normal\(chips)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18693970@\condensatori - fae++\.\cs-c-0402.normal\(chips)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C213 'CS-C-0402-220P/50V_CS-C-0402_22':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18692975@CONDENSATORI - FAE++.CS-C-0402-220P/50V.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18692975@\condensatori - fae++\.\cs-c-0402-220p/50v.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18692975@\condensatori - fae++\.\cs-c-0402-220p/50v.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C214 'CS-C-0402-10N/50V_CS-C-0402_10N':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18690117@CONDENSATORI - FAE++.CS-C-0402-10N/50V.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18690117@\condensatori - fae++\.\cs-c-0402-10n/50v.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18690117@\condensatori - fae++\.\cs-c-0402-10n/50v.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C215 'CS-C-0402-10N/50V_CS-C-0402_10N':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18690125@CONDENSATORI - FAE++.CS-C-0402-10N/50V.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18690125@\condensatori - fae++\.\cs-c-0402-10n/50v.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18690125@\condensatori - fae++\.\cs-c-0402-10n/50v.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C216 'CS-C-0402-220P/50V_CS-C-0402_22':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18692967@CONDENSATORI - FAE++.CS-C-0402-220P/50V.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18692967@\condensatori - fae++\.\cs-c-0402-220p/50v.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18692967@\condensatori - fae++\.\cs-c-0402-220p/50v.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C217 'CS-C-0402_CS-C-0402_NU':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18693962@CONDENSATORI - FAE++.CS-C-0402.NORMAL(CHIPS)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18693962@\condensatori - fae++\.\cs-c-0402.normal\(chips)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18693962@\condensatori - fae++\.\cs-c-0402.normal\(chips)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C218 'CS-C-0402_CS-C-0402_NU':;
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS19498960@CONDENSATORI - FAE++.CS-C-0402.NORMAL(CHIPS)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins19498960@\condensatori - fae++\.\cs-c-0402.normal\(chips)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins19498960@\condensatori - fae++\.\cs-c-0402.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C219 'CS-C-0402_CS-C-0402_NU':;
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS19498929@CONDENSATORI - FAE++.CS-C-0402.NORMAL(CHIPS)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins19498929@\condensatori - fae++\.\cs-c-0402.normal\(chips)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins19498929@\condensatori - fae++\.\cs-c-0402.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  C22 'CS-C-0402-10U/6V3-X5R_CS-C-0402':
  ROOM='CM3L';
 
@@ -1204,31 +1112,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C220 'CS-C-0402-4.7P/50V-C0G_CS-C-040':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18699188@CONDENSATORI - FAE++.CS-C-0402-4.7P/50V-C0G.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18699188@\condensatori - fae++\.\cs-c-0402-4.7p/50v-c0g.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18699188@\condensatori - fae++\.\cs-c-0402-4.7p/50v-c0g.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C221 'CS-C-0402-4.7P/50V-C0G_CS-C-040':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18697631@CONDENSATORI - FAE++.CS-C-0402-4.7P/50V-C0G.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18697631@\condensatori - fae++\.\cs-c-0402-4.7p/50v-c0g.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18697631@\condensatori - fae++\.\cs-c-0402-4.7p/50v-c0g.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C222 'CS-C-1206-22U/25V-X5R_CS-C-1206':
+ C222 'CS-C-1206-22U/25V-X5R_CS-C-12_1':
  ROOM='POWER 5V-3V3';
 
 SECTION_NUMBER 1
@@ -1240,85 +1124,25 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C223 'CS-C-0603-100N/50V_CS-C-0603_10':
+ C224 'CS-C-1206-22U/25V-X5R_CS-C-12_1':
  ROOM='POWER 5V-3V3';
 
 SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18701912@CONDENSATORI - FAE++.CS-C-0603-100N/50V.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18701912@\condensatori - fae++\.\cs-c-0603-100n/50v.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18701912@\condensatori - fae++\.\cs-c-0603-100n/50v.normal\(sch_1)',
+ '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS20547794@CONDENSATORI - FAE++.CS-C-1206-22U/25V-X5R.NORMAL(SCH_1)':
+ C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins20547794@\condensatori - fae++\.\cs-c-1206-22u/25v-x5r.normal\(sch_1)',
+ P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins20547794@\condensatori - fae++\.\cs-c-1206-22u/25v-x5r.normal\(sch_1)',
  ROOM='POWER 5V-3V3',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C224 'CS-C-1206-22U/25V-X5R_CS-C-1206':
+ C227 'CS-C-1206-22U/25V-X5R_CS-C-12_2':
  ROOM='POWER 5V-3V3';
 
 SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS19429044@CONDENSATORI - FAE++.CS-C-1206-22U/25V-X5R.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins19429044@\condensatori - fae++\.\cs-c-1206-22u/25v-x5r.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins19429044@\condensatori - fae++\.\cs-c-1206-22u/25v-x5r.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C225 'CS-C-0603-100N/50V_CS-C-0603_10':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18679708@CONDENSATORI - FAE++.CS-C-0603-100N/50V.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18679708@\condensatori - fae++\.\cs-c-0603-100n/50v.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18679708@\condensatori - fae++\.\cs-c-0603-100n/50v.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C226 'CS-C-0402-1U/16-X5R_CS-C-0402_1':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18689389@CONDENSATORI - FAE++.CS-C-0402-1U/16-X5R.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18689389@\condensatori - fae++\.\cs-c-0402-1u/16-x5r.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18689389@\condensatori - fae++\.\cs-c-0402-1u/16-x5r.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C227 'CS-C-0603-22U/10V/X5R_CS-C-0603':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS19430807@CONDENSATORI - FAE++.CS-C-0603-22U/10V/X5R.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins19430807@\condensatori - fae++\.\cs-c-0603-22u/10v/x5r.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins19430807@\condensatori - fae++\.\cs-c-0603-22u/10v/x5r.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C228 'CS-C-0603-22U/10V/X5R_CS-C-0603':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS19430815@CONDENSATORI - FAE++.CS-C-0603-22U/10V/X5R.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins19430815@\condensatori - fae++\.\cs-c-0603-22u/10v/x5r.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins19430815@\condensatori - fae++\.\cs-c-0603-22u/10v/x5r.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C229 'CS-C-0603-22U/10V/X5R_CS-C-0603':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS19430823@CONDENSATORI - FAE++.CS-C-0603-22U/10V/X5R.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins19430823@\condensatori - fae++\.\cs-c-0603-22u/10v/x5r.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins19430823@\condensatori - fae++\.\cs-c-0603-22u/10v/x5r.normal\(sch_1)',
+ '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS20547807@CONDENSATORI - FAE++.CS-C-1206-22U/25V-X5R.NORMAL(SCH_1)':
+ C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins20547807@\condensatori - fae++\.\cs-c-1206-22u/25v-x5r.normal\(sch_1)',
+ P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins20547807@\condensatori - fae++\.\cs-c-1206-22u/25v-x5r.normal\(sch_1)',
  ROOM='POWER 5V-3V3',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
@@ -1336,13 +1160,13 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C230 'CS-C-0603-22U/10V/X5R_CS-C-0603':
+ C230 'CS-C-1206-22U/25V-X5R_CS-C-12_3':
  ROOM='POWER 5V-3V3';
 
 SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS19430831@CONDENSATORI - FAE++.CS-C-0603-22U/10V/X5R.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins19430831@\condensatori - fae++\.\cs-c-0603-22u/10v/x5r.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins19430831@\condensatori - fae++\.\cs-c-0603-22u/10v/x5r.normal\(sch_1)',
+ '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS20547820@CONDENSATORI - FAE++.CS-C-1206-22U/25V-X5R.NORMAL(SCH_1)':
+ C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins20547820@\condensatori - fae++\.\cs-c-1206-22u/25v-x5r.normal\(sch_1)',
+ P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins20547820@\condensatori - fae++\.\cs-c-1206-22u/25v-x5r.normal\(sch_1)',
  ROOM='POWER 5V-3V3',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
@@ -2550,30 +2374,6 @@ SECTION_NUMBER 1
  C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18488721@\induttori - fae++\.\l - l-07c1n8sv6t-1.8n/0.3a.normal\(sch_1)',
  P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page4_ins18488721@\induttori - fae++\.\l - l-07c1n8sv6t-1.8n/0.3a.normal\(sch_1)',
  ROOM='WIFI-BLUETOOTH',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- L23 'PW-IHLP1212BZER1R0M11-1U/5A_LS-':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18679811@INDUTTORI - FAE++.PW-IHLP1212BZER1R0M11-1U/5A.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18679811@\induttori - fae++\.\pw-ihlp1212bzer1r0m11-1u/5a.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18679811@\induttori - fae++\.\pw-ihlp1212bzer1r0m11-1u/5a.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- L24 'PW-IHLP1212BZER1R0M11-1U/5A_LS-':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18679757@INDUTTORI - FAE++.PW-IHLP1212BZER1R0M11-1U/5A.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18679757@\induttori - fae++\.\pw-ihlp1212bzer1r0m11-1u/5a.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18679757@\induttori - fae++\.\pw-ihlp1212bzer1r0m11-1u/5a.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -4126,19 +3926,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R251 'RS-0402-15K_RS-0402_15K':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18692785@RESISTENZE - FAE++.RS-0402-15K.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18692785@\resistenze - fae++\.\rs-0402-15k.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18692785@\resistenze - fae++\.\rs-0402-15k.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R252 'RS-0402-15K_RS-0402_15K':
+ R252 'RS-0402-15K_RS-0402_47.5K':
  ROOM='POWER 5V-3V3';
 
 SECTION_NUMBER 1
@@ -4166,69 +3954,9 @@ PART_NAME
  ROOM='POWER 5V-3V3';
 
 SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18710881@RESISTENZE - FAE++.RS-0402.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18710881@\resistenze - fae++\.\rs-0402.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18710881@\resistenze - fae++\.\rs-0402.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R255 'RS-0402-0R_RS-0402_0R':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18710894@RESISTENZE - FAE++.RS-0402-0R.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18710894@\resistenze - fae++\.\rs-0402-0r.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18710894@\resistenze - fae++\.\rs-0402-0r.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R256 'RS-0402_RS-0402_NU':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18692381@RESISTENZE - FAE++.RS-0402.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18692381@\resistenze - fae++\.\rs-0402.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18692381@\resistenze - fae++\.\rs-0402.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R257 'RS-0402-1M_RS-0402_1M':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18699180@RESISTENZE - FAE++.RS-0402-1M.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18699180@\resistenze - fae++\.\rs-0402-1m.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18699180@\resistenze - fae++\.\rs-0402-1m.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R258 'RS-0402-1M_RS-0402_1M':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18697318@RESISTENZE - FAE++.RS-0402-1M.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18697318@\resistenze - fae++\.\rs-0402-1m.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18697318@\resistenze - fae++\.\rs-0402-1m.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R259 'RS-0402_RS-0402_NU':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS19430738@RESISTENZE - FAE++.RS-0402.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins19430738@\resistenze - fae++\.\rs-0402.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins19430738@\resistenze - fae++\.\rs-0402.normal\(sch_1)',
+ '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS20560807@RESISTENZE - FAE++.RS-0402.NORMAL(SCH_1)':
+ C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins20560807@\resistenze - fae++\.\rs-0402.normal\(sch_1)',
+ P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins20560807@\resistenze - fae++\.\rs-0402.normal\(sch_1)',
  ROOM='POWER 5V-3V3',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
@@ -4270,7 +3998,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R263 'RS-0402-15K_RS-0402_15K':
+ R263 'RS-0402-15K_RS-0402_29.4K':
  ROOM='POWER 5V-3V3';
 
 SECTION_NUMBER 1
@@ -4282,37 +4010,13 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R264 'RS-0402-0R_RS-0402_0R':
+ R264 'RS-0402-0R_RS-0402_78.7K':
  ROOM='POWER 5V-3V3';
 
 SECTION_NUMBER 1
  '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS19430376@RESISTENZE - FAE++.RS-0402-0R.NORMAL(SCH_1)':
  C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins19430376@\resistenze - fae++\.\rs-0402-0r.normal\(sch_1)',
  P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins19430376@\resistenze - fae++\.\rs-0402-0r.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R265 'RS-0402-191K_RS-0402_191K':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18699526@RESISTENZE - FAE++.RS-0402-191K.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18699526@\resistenze - fae++\.\rs-0402-191k.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18699526@\resistenze - fae++\.\rs-0402-191k.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R266 'RS-0402-316K_RS-0402_316K':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18697331@RESISTENZE - FAE++.RS-0402-316K.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18697331@\resistenze - fae++\.\rs-0402-316k.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18697331@\resistenze - fae++\.\rs-0402-316k.normal\(sch_1)',
  ROOM='POWER 5V-3V3',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
@@ -5788,18 +5492,6 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U27 'BUCK-2X-LT8650SEV- 4A/ADJ_IC-LT':
- ROOM='POWER 5V-3V3';
-
-SECTION_NUMBER 1
- '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS18678254@INTEGRATI - FAE++.BUCK-2X-LT8650SEV- 4A/ADJ.NORMAL(SCH_1)':
- C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins18678254@\integrati - fae++\.\buck-2x-lt8650sev- 4a/adj.normal\(sch_1)',
- P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins18678254@\integrati - fae++\.\buck-2x-lt8650sev- 4a/adj.normal\(sch_1)',
- ROOM='POWER 5V-3V3',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  U28 'USB-PSW - TPS2051CDBVR_SOT23-5_':
  ROOM='USB HOST 1';
 
@@ -5860,6 +5552,16 @@ SECTION_NUMBER 1
  '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS20287488@INTEGRATI - FAE++.MUX-AN-4X2-1 - 74CBTLV3257BQ.NORMAL(CHIPS)':
  C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins20287488@\integrati - fae++\.\mux-an-4x2-1 - 74cbtlv3257bq.normal\(chips)',
  P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page5_ins20287488@\integrati - fae++\.\mux-an-4x2-1 - 74cbtlv3257bq.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U34 'LTM8024_BGA-88-ROUND_LTM8024':;
+
+SECTION_NUMBER 1
+ '@20173009_BALENA-FIN_V12.BALENA FIN(SCH_1):INS20540766@20210330_BALENA-FIN_V12.LTM8024.NORMAL(CHIPS)':
+ C_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):ins20540766@\20210330_balena-fin_v12\.\ltm8024.normal\(chips)',
+ P_PATH='@\20173009_balena-fin_v12\.\balena fin\(sch_1):page3_ins20540766@\20210330_balena-fin_v12\.\ltm8024.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

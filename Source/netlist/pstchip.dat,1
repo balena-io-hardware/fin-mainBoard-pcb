@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001May-13-2021 at 19:43:49}
+{ Using PSTWRITER 17.2.0 d001May-13-2021 at 20:02:57}
 primitive 'ANT - AH104N2450D1-T - 2.4G-5G_';
   pin
     '1':

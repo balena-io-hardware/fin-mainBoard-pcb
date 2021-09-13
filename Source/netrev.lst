@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : 20173009_BALENA-FIN_V12.brd                   )
+(    Drawing          : balenaFin-PCB.brd                             )
 (    Software Version : 17.2S075                                      )
-(    Date/Time        : Thu May 13 20:08:52 2021                      )
+(    Date/Time        : Thu Sep 09 12:08:07 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist'
 Design Directory:            'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source'
-Old design name:             'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/20173009_BALENA-FIN_V12.brd'
-New design name:             'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/20173009_BALENA-FIN_V12.brd'
+Old design name:             'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/balenaFin-PCB.brd'
+New design name:             'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/balenaFin-PCB.brd'
 
-CmdLine: netrev -$ -i Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist -y 1 -h -q netrev_constraint_report.xml Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/#Taaaabn05636.tmp
+CmdLine: netrev -$ -i Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist -y 1 -h -q netrev_constraint_report.xml Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/#Taaaaav08144.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstchip.dat 
-   Finished reading Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstchip.dat (00:00:00.07)
+   Finished reading Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstchip.dat (00:00:00.04)
 Starting to read Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstxprt.dat 
    Finished reading Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstxprt.dat (00:00:00.01)
 Starting to read Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstxnet.dat 
@@ -60,7 +60,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on May 13 20:08:52 2021
+netrev run on Sep 9 12:08:07 2021
    DESIGN NAME : '20173009_BALENA-FIN_V12'
    PACKAGING ON Mar 10 2021 15:36:01
 
@@ -85,6 +85,6 @@ netrev run on May 13 20:08:52 2021
  No oversight detected
  No warning detected
 
-cpu time      0:06:13
-elapsed time  0:00:03
+cpu time      0:01:40
+elapsed time  0:00:00
 
