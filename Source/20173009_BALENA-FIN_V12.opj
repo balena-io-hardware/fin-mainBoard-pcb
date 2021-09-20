@@ -129,8 +129,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 78 1328 78 547")
-        (Scroll "282 6")
-        (Zoom "114")
+        (Scroll "1626 306")
+        (Zoom "228")
         (Occurrence "/"))
       (Path
          "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")

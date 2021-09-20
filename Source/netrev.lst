@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : balenaFin-PCB.brd                             )
 (    Software Version : 17.2S075                                      )
-(    Date/Time        : Thu Sep 09 12:08:07 2021                      )
+(    Date/Time        : Mon Sep 20 11:27:55 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,12 +22,12 @@ Design Directory:            'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy
 Old design name:             'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/balenaFin-PCB.brd'
 New design name:             'Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/balenaFin-PCB.brd'
 
-CmdLine: netrev -$ -i Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist -y 1 -h -q netrev_constraint_report.xml Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/#Taaaaav08144.tmp
+CmdLine: netrev -$ -i Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist -y 1 -h -q netrev_constraint_report.xml Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/#Taaaaak02764.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstchip.dat 
-   Finished reading Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstchip.dat (00:00:00.04)
+   Finished reading Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstchip.dat (00:00:00.07)
 Starting to read Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstxprt.dat 
    Finished reading Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstxprt.dat (00:00:00.01)
 Starting to read Z:/Documents/balena/repos/HW/balena-fin-pcb-legacy/Source/netlist/pstxnet.dat 
@@ -60,7 +60,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Sep 9 12:08:07 2021
+netrev run on Sep 20 11:27:55 2021
    DESIGN NAME : '20173009_BALENA-FIN_V12'
    PACKAGING ON Mar 10 2021 15:36:01
 
@@ -85,6 +85,6 @@ netrev run on Sep 9 12:08:07 2021
  No oversight detected
  No warning detected
 
-cpu time      0:01:40
-elapsed time  0:00:00
+cpu time      0:01:43
+elapsed time  0:00:01
 
