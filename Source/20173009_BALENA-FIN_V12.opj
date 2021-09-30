@@ -73,7 +73,22 @@
     (Crossref__Outputtype "0")
     (CrossRef_XY "FALSE")
     (CrossRef_Unused "FALSE")
-    (XRF_View_Output "TRUE"))
+    (XRF_View_Output "TRUE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "\\Mac\Home\Documents\balena\repos\HW\balena-fin-pcb-legacy\Source\Release\BoM\balenaFin-v12.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{MPN}\t{Description}\t{Temp Range}\t{Pkg Type}\t{Caratteristiche}")
+    (BOM_Header
+       "Item\tQuantity\tReference\tMPN\tDescription\tTemperature\tMount\tCharacteristics")
+    (BOM_Include_File
+       "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\netlist\pstxnet.dat"
@@ -89,6 +104,8 @@
       (Type "Report"))
     (File
        "c:\users\nicolastzovanis\appdata\roaming\microsoft\windows\network shortcuts\re.inc"
+      (Type "Report"))
+    (File ".\release\bom\balenafin-v12.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
@@ -113,26 +130,17 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\20173009_balena-fin_v12.dsn")
-      (Path "Design Resources" ".\20173009_balena-fin_v12.dsn" "BALENA FIN")
+      (Path "Design Resources"
+         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20173009_balena-fin_v12.dsn")
+      (Path "Design Resources"
+         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20173009_balena-fin_v12.dsn"
+         "BALENA FIN")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\20210330_balena-fin_v12.olb")
-      (Path "Outputs")
-      (Select "Design Resources" ".\20173009_balena-fin_v12.dsn"))
+      (Select "Design Resources"
+         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20173009_balena-fin_v12.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 906"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1328 78 547")
-        (Scroll "1626 306")
-        (Zoom "228")
-        (Occurrence "/"))
-      (Path
-         "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
-      (Schematic "BALENA FIN")
-      (Page "02 - POWER"))))
+      (Tab 0))))

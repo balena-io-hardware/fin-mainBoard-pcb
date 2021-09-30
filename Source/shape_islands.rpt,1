@@ -4,18 +4,17 @@
 (                                                                     )
 (    Drawing          : balenaFin-PCB.brd                             )
 (    Software Version : 17.2S075                                      )
-(    Date/Time        : Mon Sep 13 11:58:06 2021                      )
+(    Date/Time        : Wed Sep 29 18:08:52 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-  Total islands on design: 101
+  Total islands on design: 102
 
 
   <<<  ETCH  >>>
 
     Layer = TOP
-	Point on shape: (49.4027 4.6003)  Net: GND_DIGITAL
 	Point on shape: (44.2544 69.3280)  Net: GND_DIGITAL
 	Point on shape: (41.1592 68.9258)  Net: GND_DIGITAL
 	Point on shape: (38.6192 68.9258)  Net: GND_DIGITAL
@@ -53,6 +52,7 @@
 	Point on shape: (68.7202 27.7148)  Net: GND_DIGITAL
 	Point on shape: (66.8702 29.1513)  Net: GND_DIGITAL
 	Point on shape: (28.1257 28.3498)  Net: GND_DIGITAL
+	Point on shape: (40.6018 25.5467)  Net: GND_DIGITAL
 	Point on shape: (-4.0036 24.2240)  Net: GND_DIGITAL
 	Point on shape: (55.2727 23.2898)  Net: GND_DIGITAL
 	Point on shape: (43.5260 21.7998)  Net: GND_DIGITAL
@@ -65,7 +65,7 @@
 	Point on shape: (38.7422 9.2998)  Net: GND_DIGITAL
 	Point on shape: (28.9622 8.9948)  Net: GND_DIGITAL
 	Point on shape: (13.7745 3.8442)  Net: GND_DIGITAL
-	Point on shape: (52.0889 -11.1102)  Net: GND_DIGITAL
+	Point on shape: (49.4027 4.6003)  Net: GND_DIGITAL
 	Point on shape: (27.2050 3.5698)  Net: GND_DIGITAL
 	Point on shape: (33.6622 2.0898)  Net: GND_DIGITAL
 	Point on shape: (22.9860 1.3783)  Net: GND_DIGITAL
@@ -113,9 +113,10 @@
 	Point on shape: (40.9302 -11.1299)  Net: GND_DIGITAL
 	Point on shape: (16.4302 -11.8422)  Net: GND_DIGITAL
 	Point on shape: (53.5861 -10.9102)  Net: GND_DIGITAL
+	Point on shape: (52.0889 -11.1102)  Net: GND_DIGITAL
 
     Layer = INT2
-	Point on shape: (29.6817 47.3641)  Net: GND_DIGITAL
+	Point on shape: (14.8202 32.6778)  Net: GND_DIGITAL
 	Point on shape: (17.5522 31.4793)  Net: GND_DIGITAL
 
     Layer = BOTTOM
