@@ -77,7 +77,7 @@
     (BOM_Scope "0")
     (BOM_Mode "0")
     (BOM_Report_File
-       "\\Mac\Home\Documents\balena\repos\HW\balena-fin-pcb-legacy\Source\Release\BoM\balenaFin-v12.BOM")
+       "\\Mac\Home\Documents\balena\repos\HW\balena-fin-pcb-legacy\Source\Release\BoM\balenaFin-v12.csv")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
        "{Item}\t{Quantity}\t{Reference}\t{MPN}\t{Description}\t{Temp Range}\t{Pkg Type}\t{Caratteristiche}")
@@ -87,7 +87,7 @@
        "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
-    (Open_BOM_in_Excel "FALSE")
+    (Open_BOM_in_Excel "TRUE")
     (BOM_View_Output "FALSE"))
   (Folder "Layout")
   (Folder "Outputs"
@@ -106,6 +106,8 @@
        "c:\users\nicolastzovanis\appdata\roaming\microsoft\windows\network shortcuts\re.inc"
       (Type "Report"))
     (File ".\release\bom\balenafin-v12.bom"
+      (Type "Report"))
+    (File ".\release\bom\balenafin-v12.csv"
       (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
@@ -130,17 +132,70 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20173009_balena-fin_v12.dsn")
-      (Path "Design Resources"
-         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20173009_balena-fin_v12.dsn"
-         "BALENA FIN")
+      (Path "Design Resources" ".\20173009_balena-fin_v12.dsn")
+      (Path "Design Resources" ".\20173009_balena-fin_v12.dsn" "BALENA FIN")
       (Path "Design Resources" "Library")
-      (Select "Design Resources"
-         "\\mac\home\documents\balena\repos\hw\balena-fin-pcb-legacy\source\20173009_balena-fin_v12.dsn"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\20173009_balena-fin_v12.dsn" "BALENA FIN"
+         "03 - WIFI - BLE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 906"))
-      (Tab 0))))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 1202"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -9 -38 64 1932 64 837")
+        (Scroll "820 96")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
+      (Schematic "BALENA FIN")
+      (Page "02 - POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 96 1968 96 873")
+        (Scroll "-82 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
+      (Schematic "BALENA FIN")
+      (Page "10 - ETHERNET"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 128 2000 128 905")
+        (Scroll "-82 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
+      (Schematic "BALENA FIN")
+      (Page "09 - mPCIE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 160 2032 160 937")
+        (Scroll "-82 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
+      (Schematic "BALENA FIN")
+      (Page "07 - eMMC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 352 2224 352 1129")
+        (Scroll "-82 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
+      (Schematic "BALENA FIN")
+      (Page "03 - WIFI - BLE"))))
