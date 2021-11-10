@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[04/29/21]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[10/20/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -19,7 +19,8 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
-    ("Allegro Netlist Output Board File" "allegro\20173009_BALENA-FIN_V12.brd")
+    ("Allegro Netlist Output Board File"
+       ".\allegro\20173009_balena-fin_v12.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -135,67 +136,24 @@
       (Path "Design Resources" ".\20173009_balena-fin_v12.dsn")
       (Path "Design Resources" ".\20173009_balena-fin_v12.dsn" "BALENA FIN")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\20210330_balena-fin_v12.olb")
       (Path "Outputs")
       (Select "Design Resources" ".\20173009_balena-fin_v12.dsn" "BALENA FIN"
-         "03 - WIFI - BLE"))
+         "02 - POWER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 1202"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 339 0 795"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -9 -38 64 1932 64 837")
-        (Scroll "820 96")
-        (Zoom "200")
-        (Occurrence "/"))
-      (Path
-         "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
-      (Schematic "BALENA FIN")
-      (Page "02 - POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 96 1968 96 873")
-        (Scroll "-82 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1407 24 813")
+        (Scroll "200 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
       (Schematic "BALENA FIN")
-      (Page "10 - ETHERNET"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 128 2000 128 905")
-        (Scroll "-82 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
-      (Schematic "BALENA FIN")
-      (Page "09 - mPCIE"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 160 2032 160 937")
-        (Scroll "-82 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
-      (Schematic "BALENA FIN")
-      (Page "07 - eMMC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 352 2224 352 1129")
-        (Scroll "-82 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "\\MAC\HOME\DOCUMENTS\BALENA\REPOS\HW\BALENA-FIN-PCB-LEGACY\SOURCE\20173009_BALENA-FIN_V12.DSN")
-      (Schematic "BALENA FIN")
-      (Page "03 - WIFI - BLE"))))
+      (Page "02 - POWER"))))
