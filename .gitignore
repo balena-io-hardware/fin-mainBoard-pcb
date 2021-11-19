@@ -1,8 +1,12 @@
 ### OrCAD ###
 ### Cadence Design Systm's OrCAD ###
 *.dat
+Output/*
+*/History/*
+*/__Previews/*
+allegro.jrl*
 
-### OSX ###
+## OSX ###
 # General
 .DS_Store
 .AppleDouble
