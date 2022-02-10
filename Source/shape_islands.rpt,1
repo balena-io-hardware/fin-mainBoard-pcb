@@ -1,0 +1,123 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : balenaFin-PCB.brd                             )
+(    Software Version : 17.2S075                                      )
+(    Date/Time        : Wed Sep 29 18:08:52 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 102
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (44.2544 69.3280)  Net: GND_DIGITAL
+	Point on shape: (41.1592 68.9258)  Net: GND_DIGITAL
+	Point on shape: (38.6192 68.9258)  Net: GND_DIGITAL
+	Point on shape: (36.0792 68.9258)  Net: GND_DIGITAL
+	Point on shape: (34.0944 69.3280)  Net: GND_DIGITAL
+	Point on shape: (30.9992 68.9258)  Net: GND_DIGITAL
+	Point on shape: (28.6274 69.0018)  Net: GND_DIGITAL
+	Point on shape: (39.5558 67.1308)  Net: GND_DIGITAL
+	Point on shape: (33.1182 64.2428)  Net: GND_DIGITAL
+	Point on shape: (44.4321 63.5206)  Net: GND_DIGITAL
+	Point on shape: (39.2569 62.9636)  Net: GND_DIGITAL
+	Point on shape: (45.5377 59.9648)  Net: GND_DIGITAL
+	Point on shape: (69.4952 59.1948)  Net: GND_DIGITAL
+	Point on shape: (67.3202 59.1948)  Net: GND_DIGITAL
+	Point on shape: (50.2800 57.4298)  Net: GND_DIGITAL
+	Point on shape: (69.4952 56.7548)  Net: GND_DIGITAL
+	Point on shape: (67.3202 56.7548)  Net: GND_DIGITAL
+	Point on shape: (29.7702 56.7398)  Net: GND_DIGITAL
+	Point on shape: (50.5722 55.2798)  Net: GND_DIGITAL
+	Point on shape: (13.6002 54.3864)  Net: GND_DIGITAL
+	Point on shape: (69.4952 54.3148)  Net: GND_DIGITAL
+	Point on shape: (67.3202 54.3148)  Net: GND_DIGITAL
+	Point on shape: (49.8302 53.4800)  Net: GND_DIGITAL
+	Point on shape: (32.6140 51.5716)  Net: GND_DIGITAL
+	Point on shape: (8.0202 51.5298)  Net: GND_DIGITAL
+	Point on shape: (29.5702 49.6050)  Net: GND_DIGITAL
+	Point on shape: (14.5433 49.0695)  Net: GND_DIGITAL
+	Point on shape: (69.1336 45.1398)  Net: GND_DIGITAL
+	Point on shape: (-0.1448 40.9921)  Net: GND_DIGITAL
+	Point on shape: (13.0902 38.7029)  Net: GND_DIGITAL
+	Point on shape: (12.5902 38.0029)  Net: GND_DIGITAL
+	Point on shape: (39.9702 37.7098)  Net: GND_DIGITAL
+	Point on shape: (69.3002 36.5795)  Net: GND_DIGITAL
+	Point on shape: (47.4702 30.9798)  Net: GND_DIGITAL
+	Point on shape: (68.7202 27.7148)  Net: GND_DIGITAL
+	Point on shape: (66.8702 29.1513)  Net: GND_DIGITAL
+	Point on shape: (28.1257 28.3498)  Net: GND_DIGITAL
+	Point on shape: (40.6018 25.5467)  Net: GND_DIGITAL
+	Point on shape: (-4.0036 24.2240)  Net: GND_DIGITAL
+	Point on shape: (55.2727 23.2898)  Net: GND_DIGITAL
+	Point on shape: (43.5260 21.7998)  Net: GND_DIGITAL
+	Point on shape: (38.9702 21.0898)  Net: GND_DIGITAL
+	Point on shape: (42.9302 18.9878)  Net: GND_DIGITAL
+	Point on shape: (46.9736 19.4898)  Net: GND_DIGITAL
+	Point on shape: (54.8554 19.0398)  Net: GND_DIGITAL
+	Point on shape: (42.4059 16.4863)  Net: GND_DIGITAL
+	Point on shape: (40.3479 9.9976)  Net: GND_DIGITAL
+	Point on shape: (38.7422 9.2998)  Net: GND_DIGITAL
+	Point on shape: (28.9622 8.9948)  Net: GND_DIGITAL
+	Point on shape: (13.7745 3.8442)  Net: GND_DIGITAL
+	Point on shape: (49.4027 4.6003)  Net: GND_DIGITAL
+	Point on shape: (27.2050 3.5698)  Net: GND_DIGITAL
+	Point on shape: (33.6622 2.0898)  Net: GND_DIGITAL
+	Point on shape: (22.9860 1.3783)  Net: GND_DIGITAL
+	Point on shape: (34.3322 1.2898)  Net: GND_DIGITAL
+	Point on shape: (34.6323 0.8898)  Net: GND_DIGITAL
+	Point on shape: (6.4764 -1.5074)  Net: GND_DIGITAL
+	Point on shape: (38.9702 -7.9186)  Net: GND_DIGITAL
+	Point on shape: (15.7709 -11.4715)  Net: GND_DIGITAL
+	Point on shape: (19.0515 -11.2159)  Net: GND_DIGITAL
+	Point on shape: (58.6892 -13.8342)  Net: GND_DIGITAL
+	Point on shape: (16.4302 -13.4632)  Net: GND_DIGITAL
+	Point on shape: (49.0595 -13.4614)  Net: GND_DIGITAL
+	Point on shape: (41.4395 -13.4614)  Net: GND_DIGITAL
+	Point on shape: (33.7825 -13.5038)  Net: GND_DIGITAL
+	Point on shape: (14.0302 -13.6244)  Net: GND_DIGITAL
+	Point on shape: (-9.3611 71.5399)  Net: GND_DIGITAL
+	Point on shape: (-17.7299 67.5400)  Net: GND_DIGITAL
+	Point on shape: (-3.9998 69.0398)  Net: GND_DIGITAL
+	Point on shape: (52.2802 65.8671)  Net: GND_DIGITAL
+	Point on shape: (39.6772 60.1347)  Net: GND_DIGITAL
+	Point on shape: (45.5377 60.2652)  Net: GND_DIGITAL
+	Point on shape: (50.5002 60.8098)  Net: GND_DIGITAL
+	Point on shape: (48.3302 57.5800)  Net: GND_DIGITAL
+	Point on shape: (64.2452 56.4798)  Net: GND_DIGITAL
+	Point on shape: (50.1262 55.7338)  Net: GND_DIGITAL
+	Point on shape: (12.3702 55.2398)  Net: GND_DIGITAL
+	Point on shape: (14.4952 47.0098)  Net: GND_DIGITAL
+	Point on shape: (0.1172 42.6598)  Net: GND_DIGITAL
+	Point on shape: (10.6002 35.8082)  Net: GND_DIGITAL
+	Point on shape: (14.1702 36.1500)  Net: GND_DIGITAL
+	Point on shape: (13.2180 36.1052)  Net: GND_DIGITAL
+	Point on shape: (12.0879 36.0533)  Net: GND_DIGITAL
+	Point on shape: (33.3691 13.1898)  Net: GND_DIGITAL
+	Point on shape: (41.6429 10.5411)  Net: GND_DIGITAL
+	Point on shape: (41.9727 7.0898)  Net: GND_DIGITAL
+	Point on shape: (15.0502 3.8811)  Net: GND_DIGITAL
+	Point on shape: (37.9226 1.0998)  Net: GND_DIGITAL
+	Point on shape: (33.2623 2.3898)  Net: GND_DIGITAL
+	Point on shape: (33.9621 1.6898)  Net: GND_DIGITAL
+	Point on shape: (17.3684 1.3798)  Net: GND_DIGITAL
+	Point on shape: (37.7327 -0.4078)  Net: GND_DIGITAL
+	Point on shape: (39.4541 -10.3961)  Net: GND_DIGITAL
+	Point on shape: (46.7702 -10.0591)  Net: GND_DIGITAL
+	Point on shape: (46.2702 -11.3899)  Net: GND_DIGITAL
+	Point on shape: (40.9302 -11.1299)  Net: GND_DIGITAL
+	Point on shape: (16.4302 -11.8422)  Net: GND_DIGITAL
+	Point on shape: (53.5861 -10.9102)  Net: GND_DIGITAL
+	Point on shape: (52.0889 -11.1102)  Net: GND_DIGITAL
+
+    Layer = INT2
+	Point on shape: (14.8202 32.6778)  Net: GND_DIGITAL
+	Point on shape: (17.5522 31.4793)  Net: GND_DIGITAL
+
+    Layer = BOTTOM
+	Point on shape: (10.7260 37.6645)  Net: GND_DIGITAL
