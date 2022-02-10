@@ -6,6 +6,17 @@ Output/*
 */__Previews/*
 allegro.jrl*
 
+### Altium ###
+# Previews Folders
+**/__Previews/
+
+# History Folders
+**/History/*
+
+# Project Logs
+Project\ Logs*/
+*.log*
+
 ## OSX ###
 # General
 .DS_Store
