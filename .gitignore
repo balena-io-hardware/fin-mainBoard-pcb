@@ -17,6 +17,9 @@ allegro.jrl*
 Project\ Logs*/
 *.log*
 
+#Project Outputs
+Project\ Outputs*\
+
 ## OSX ###
 # General
 .DS_Store
