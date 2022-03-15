@@ -22,7 +22,7 @@ VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=Officejet 7610 series
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
 OutputMedium1_Printer=
@@ -42,7 +42,7 @@ OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=1
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Imperial|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False
+Configuration1_Item1=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16777223~1,16777221~1,16973833~1,16908289~1,16973848~1,16777219~1,16973831~1,16973849~1,16777220~1,16973835~1,16973830~1,16973832~1,16842751~1,16973834~1,16777218~1,16777222~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False
 OutputType2=ExportSTEP
 OutputName2=Export STEP
 OutputCategory2=Export
@@ -71,9 +71,9 @@ Configuration3_Item1=CaptionAsName
 Configuration3_Name2=General
 Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=0|FormWidth=1512|FormHeight=975|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration3_Name3=GroupOrder
-Configuration3_Item3=Description=True
+Configuration3_Item3=Description=True|Mount=True
 Configuration3_Name4=SortOrder
-Configuration3_Item4=Designator=Up
+Configuration3_Item4=Mount=Down
 Configuration3_Name5=VisibleOrder
 Configuration3_Item5=Designator=100|Quantity=120|MPN=100|Description=120|Alternative MPN=100|Pkg Type=100|Mount=100
 Configuration3_Name6=VisibleOrder_Flat
@@ -392,7 +392,7 @@ OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=1
 OutputEnabled8_OutputMedium3=0
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 OutputType9=BOM_PartType
@@ -434,7 +434,7 @@ UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
 OpenOutput2=1
 PromptOverwrite2=1
-PublishMethod2=0
+PublishMethod2=1
 ZoomLevel2=50
 FitSCHPrintSizeToDoc2=1
 FitPCBPrintSizeToDoc2=1
