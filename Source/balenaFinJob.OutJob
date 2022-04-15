@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Officejet 7610 series
+TargetPrinter=Epson Stylus SX210
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -42,7 +42,7 @@ OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=1
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16777223~1,16777221~1,16973833~1,16908289~1,16973848~1,16777219~1,16973831~1,16973849~1,16777220~1,16973835~1,16973830~1,16973832~1,16842751~1,16973834~1,16777218~1,16777222~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False
+Configuration1_Item1=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16777223~1,16777221~1,16973833~1,16908289~1,16973848~1,16777219~1,16973831~1,16973849~1,16777220~1,16973835~1,16973830~1,16973832~1,16842751~1,16973834~1,16777218~1,16777222~1,16908290~1,16908296~1,16973837~1,16908295~1,16908299~1,16908300~1,16908334~1,16908329~1,16908317~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False
 OutputType2=ExportSTEP
 OutputName2=Export STEP
 OutputCategory2=Export
@@ -447,7 +447,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=\\Mac\Home\Documents\balena\repos\HW\balena-fin-pcb-legacy\Output\
+OutputFilePath3=D:\Git\balena-fin-pcb-legacy\Output\
 ReleaseManaged3=0
 OutputBasePath3=..\Output\
 OutputPathMedia3=
@@ -464,7 +464,7 @@ OpenOutput3=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=\\Mac\Home\Documents\balena\repos\HW\balena-fin-pcb-legacy\Output\PDF\balenaFinJob.PDF
 OpenOutputs2=1
-RelativeOutputPath3=\\Mac\Home\Documents\balena\repos\HW\balena-fin-pcb-legacy\Output\
+RelativeOutputPath3=D:\Git\balena-fin-pcb-legacy\Output\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
