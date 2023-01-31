@@ -1,4 +1,170 @@
 - commits:
+    - subject: Add copyright and licensing notice
+      hash: 699f840d9c67a46fde5b6d86c4afef9a69c69acc
+      body: |
+        The NOTICE file applies the license to all files in the repo.
+
+        Also stripped out the unnecessary markdown elaborations in the LICENSE
+        file so it's more consistent with the original.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Heath Raftery (@hraftery) <heath.raftery@balena.io>
+        signed-off-by: Heath Raftery (@hraftery) <heath.raftery@balena.io>
+      author: Heath Raftery
+      nested: []
+    - subject: Add Flowzone
+      hash: ed0507154cdcd45e28de717dbcb4467e73aa666a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: zisis00
+      nested: []
+    - subject: Added assembly pin 1 for U34
+      hash: 4ed6c9060df78da889272c7c64f2d9ae48120e0d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+    - subject: Added english names for components
+      hash: 3113ef17aa9d215e79be595b26d127c8ad896099
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+    - subject: Fixed database and BoM for release
+      hash: ba66a99d6e7b072332c8a899ef8ee2be33afccd6
+      body: |
+        Translated all component information to English
+        Fixed database and shape issues to be able to create a release.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+    - subject: Finish routing changes
+      hash: de4dba84ac182dc93a69bfd0070c015872046a0e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+    - subject: Schematic changes for replacing LT8650S for LTM8024
+      hash: 9d50b4cdaddf2f664bf355b86fd5366197aa46db
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+    - subject: Added instructions for global shape parameters.
+      hash: 4189d8e9f03f2a08556ae2b49e66aa7207f1dcc3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+    - subject: Added global settings to fix polygons
+      hash: bf8f0289351aa9327c656b74d2ce8657718b7b65
+      body: >
+        In Global Dynamic Shape parameters:
+
+
+        - In Thermal relief connects:
+          - Set SMD pins to "Orthogonal"
+          - Set "Use fixed thermal width of:" to 0.2
+        - In Clearances
+          - Set "Thru pin", "SMD pin" and "Via: to "Thermal" and their respective "Oversize values" to 0.1
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+    - subject: Generated v1.1.1 to fix thermal issue
+      hash: 8bcc7d045bbc54a9a1cb070c73965359bb80f64f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+    - subject: Changed PCB version to V12
+      hash: d334d806a6ce1aeaa6f68795f1e503d322e96469
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+    - subject: Changed TCE0806G-900-2P-T2 for LCFE080602G900TG
+      hash: 086f63816c8fe10cc2f6e2b625b0bcc06cee2c45
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+    - subject: Added cached files to library
+      hash: 7ef2c9b117ac83fdbc1df465e9f9b6e003e1d3bb
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+    - subject: Added files for hardware v1.1.0 (v10)
+      hash: 78aefebb8c77a6a8c8d946ca203b688fbd18b11c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+    - subject: Adding v1.1.0 V9
+      hash: ebcb964b86f6dec2ac01212f10b180e37512734a
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+        signed-off-by: Nicolas Tzovanis <nicolas@balena.io>
+      author: Nicolas Tzovanis
+      nested: []
+  version: 2.0.0
+  title: ""
+  date: 2023-01-31T15:04:43.995Z
+- commits:
     - subject: Add Flowzone
       hash: ed0507154cdcd45e28de717dbcb4467e73aa666a
       body: ""
